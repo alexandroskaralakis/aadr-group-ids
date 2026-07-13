@@ -1,0 +1,11 @@
+script: run_bronze_age_canonical.R
+prefix: merged_wide16_ba_canon
+f2dir: f2_ba_canonical
+maxmiss: 0
+blgsize: 0.05
+n_populations: 9
+n_jackknife_blocks: 543
+target: MyDNA
+left: Turkey_EBA_QC, Russia_Samara_EBA_Yamnaya_QC
+right: Mbuti, Italy_Sicily_Epigravettian, Russia_Kostenki_UP, Serbia_IronGates_Mesolithic, Papuan, Morocco_Iberomaurusian
+generated_utc: 2026-07-12 22:42:00

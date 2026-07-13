@@ -1,0 +1,9 @@
+script: run_anchor_integrity
+PANELS: panel_sites / panel_kumIN / panel_kumOUT (RELABELLED -- NEW BASES)
+basis_kumIN: 122704
+basis_kumOUT: 122702
+minoan_site_rank0_p: 0.0073636
+minoan_date_rank0_p: 0.0013873
+Sub-pools from AADR Locality and Date fields ONLY. Never from genetic similarity.
+IronGates threshold 8000 BP = published arrival of farming, fixed BEFORE any f-stat.
+NOTHING here is comparable to 122,804 / 122,891 / 124,362.

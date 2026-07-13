@@ -1,0 +1,13 @@
+Georgia_Kotias_QC
+Greece_Minoan_POOL
+Greece_Mycenaean_POOL
+Iran_GanjDareh_N_QC
+Italy_Sicily_Epigravettian
+Mbuti
+Morocco_Iberomaurusian
+MyDNA
+Papuan
+Russia_Eneolithic_Steppe_QC
+Russia_Kostenki_UP
+Russia_Yamnaya_QC
+Serbia_IronGates_Mesolithic

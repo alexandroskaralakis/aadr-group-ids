@@ -1,0 +1,5 @@
+model,main_source,iran_pct,fold
+Turkey_MLBA <- Minoan+Iran+Yam,Minoan (no EBA),12.5,0.9556592921639969
+Mycenaean <- Minoan+Yam,Minoan,12.5,41.94215453859268
+Turkey_MLBA <- Turkey_EBA+Yam,Turkey_EBA,32.1,2535.597166235339
+Turkey_MLBA <- Turkey_EBA+Eneo,Turkey_EBA,32.1,55765.00577271412

@@ -1,0 +1,9 @@
+script: run_eastern_term
+prefix: postBA_arb
+f2dir: f2_eastern_term
+maxmiss: 0  blgsize: 0.05
+n_populations: 14
+n_jackknife_blocks: 707
+n_snps: 101706
+NOTE: Israel_Natufian excluded from the common extract by design;
+      its basis cost is measured in PART 1 and reported separately.

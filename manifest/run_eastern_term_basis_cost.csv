@@ -1,0 +1,7 @@
+added,n_pops,n_blocks,n_snp,vs_baseline
+BASELINE_core_only,10,709,124362,0
+Iran_GanjDareh_N_QC,11,708,122862,-1500
+Georgia_Kotias_QC,11,709,124377,15
+Turkey_Epipaleolithic,11,707,102314,-22048
+Turkey_PPN_QC,11,709,124372,10
+Israel_Natufian_QC,11,695,38041,-86321

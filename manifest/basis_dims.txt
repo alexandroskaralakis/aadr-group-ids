@@ -1,0 +1,3 @@
+n_populations: 9
+n_jackknife_blocks: 543
+snp_counts: see counts.txt

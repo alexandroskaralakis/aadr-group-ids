@@ -1,0 +1,13 @@
+script: run_test3_v2
+prefix: postBA_arb
+f2dir: f2_test3_v2
+maxmiss: 0  blgsize: 0.05
+n_populations: 16
+n_jackknife_blocks: 708
+n_snps: 122891
+headline_p_six: 0.51128
+headline_p_kotias: 0.01219
+headline_fold: 41.94
+SUPERSEDES: run_test3.R (122,969) and run_test3_controls.R (122,886).
+ALL of §7 must be quoted from THIS basis. No exceptions.
+PART 3 is a REDEFINED test, not a reproduction of v0.2's '6/6 rotations'.

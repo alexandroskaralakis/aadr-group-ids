@@ -1,0 +1,8 @@
+script: run_test3_sourceswap
+prefix: postBA_arb
+f2dir: f2_test3_v2   (REUSED from run_test3_v2 -- same basis by design)
+maxmiss: 0  blgsize: 0.05
+n_populations: 16
+n_snps: 122891
+PURPOSE: decide whether Test 3's damage tracks the ANCHOR or the IRAN TERM.
+The withdrawn 'dose-response' table (PRED-R) is superseded by this 2x2.

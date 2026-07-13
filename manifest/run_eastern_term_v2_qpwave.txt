@@ -1,0 +1,4 @@
+qpwave_iran_kotias_chisq: 101.4220
+qpwave_iran_kotias_dof: 5
+qpwave_iran_kotias_p: 2.6503e-20
+qpwave_basis_snps: 121107

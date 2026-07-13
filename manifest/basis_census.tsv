@@ -1,0 +1,25 @@
+script	panel	n_ind	n_snp_panel	n_filtered	n_poly	model	weights	dof	chisq	p
+run_aeg_loo	loo_I5733	221	1233013	571419	524089	Turkey_N_QC + Iran_GanjDareh_N_QC	0.726 (Z=21.7) / 0.274 (Z=8.20)	4	3.35	0.501
+run_aeg_loo	loo_I5735	221	1233013	696349	638680	Turkey_N_QC + Iran_GanjDareh_N_QC	0.806 (Z=22.6) / 0.194 (Z=5.45)	4	3.50	0.478
+run_aeg_loo	loo_ulu117	221	1233013	611041	561372	Turkey_N_QC + Iran_GanjDareh_N_QC	0.790 (Z=21.8) / 0.210 (Z=5.81)	4	6.51	0.164
+run_bronze_age_canonical	merged_wide16_ba_canon	1062	137384	125076	123602	Turkey_EBA_QC + Russia_Samara_EBA_Yamnaya_QC	0.679 (Z=9.36) / 0.321 (Z=4.42)	4	1.00	0.909
+run_ba_natufian2	merged_wide16_ba_final	1062	137384	44234	43788	Turkey_EBA_QC + Russia_Samara_EBA_Yamnaya_QC	0.606 (Z=7.82) / 0.394 (Z=5.09)	4	5.57	0.234
+run_ba_natufian2	merged_wide16_ba_final	1062	137384	44234	43788	Turkey_EBA_QC + Russia_Samara_EBA_Yamnaya_QC + Israel_Natufian_QC_POOL	0.517 (Z=1.97) / 0.431 (Z=3.27) / 0.0513 (Z=0.359)	3	5.40	0.145
+run_ba_kinprune	merged_wide16_ba_final	1062	137384	125076	123612	Turkey_EBA_QC + Russia_Samara_EBA_Yamnaya_QC	0.680 (Z=9.38) / 0.320 (Z=4.41)	4	1.03	0.905
+run_74_replication	postBA_west	400	142250	123871	123000	Greece_Minoan_POOL + Iran_GanjDareh_N_QC + Russia_Eneolithic_Steppe_QC	0.625 (Z=6.13) / 0.204 (Z=3.10) / 0.171 (Z=3.04)	3	2.96	0.398
+run_74_replication	postBA_west	400	142250	123871	123000	Turkey_EBA_WEST + Iran_GanjDareh_N_QC + Russia_Eneolithic_Steppe_QC	0.716 (Z=5.96) / 0.0640 (Z=0.733) / 0.220 (Z=4.31)	3	0.666	0.881
+run_aeg_loo	solo_I5733	221	1233013	564922	519296	Turkey_N_QC + Iran_GanjDareh_N_QC	0.832 (Z=17.7) / 0.168 (Z=3.57)	4	9.71	0.0456
+run_aeg_loo	solo_I5735	221	1233013	386166	355549	Turkey_N_QC + Iran_GanjDareh_N_QC	0.719 (Z=15.5) / 0.281 (Z=6.04)	4	5.31	0.257
+run_aeg_loo	solo_ulu117	221	1233013	307851	281089	Turkey_N_QC + Iran_GanjDareh_N_QC	0.764 (Z=15.6) / 0.236 (Z=4.81)	4	4.27	0.371
+run_anchor_headtohead	wide16_anchors	1062	137384	89799	88880	Greece_Crete_HgCharalambos_EMBA + Russia_Samara_EBA_Yamnaya_QC	0.790 (Z=9.81) / 0.210 (Z=2.60)	4	6.56	0.161
+run_anchor_headtohead	wide16_anchors	1062	137384	89799	88880	Turkey_EBA_AEG + Russia_Samara_EBA_Yamnaya_QC	0.685 (Z=7.96) / 0.315 (Z=3.66)	4	3.61	0.461
+run_anchor_calibration	wide16_calib	1062	137384	123506	122642	Greece_Crete_HgCharalambos_EMBA + Iran_GanjDareh_N_QC + Russia_Eneolithic_Steppe_QC	0.627 (Z=6.09) / 0.184 (Z=2.82) / 0.190 (Z=3.45)	3	2.26	0.520
+run_anchor_calibration	wide16_calib	1062	137384	123506	122642	Turkey_N_QC + Iran_GanjDareh_N_QC + Russia_Eneolithic_Steppe_QC	0.607 (Z=6.32) / 0.253 (Z=4.50) / 0.140 (Z=2.36)	3	0.996	0.802
+run_anchor_calibration	wide16_calib	1062	137384	123506	122642	Turkey_EBA_WEST + Iran_GanjDareh_N_QC + Russia_Eneolithic_Steppe_QC	0.718 (Z=5.93) / 0.0553 (Z=0.669) / 0.227 (Z=3.92)	3	0.625	0.891
+run_ba_natufian2	wide16_ebasplit	1062	137384	36166	35732	Turkey_EBA_AEG + Russia_Samara_EBA_Yamnaya_QC	0.595 (Z=6.06) / 0.405 (Z=4.12)	4	7.39	0.117
+run_ba_natufian2	wide16_ebasplit	1062	137384	36166	35732	Turkey_EBA_AEG + Russia_Samara_EBA_Yamnaya_QC + Israel_Natufian_QC_POOL	209. (Z=0.0277) / -91.6 (Z=-0.0275) / -116. (Z=-0.0276)	3	5.28	0.152
+run_ba_cline	wide16_ebasplit	1062	137384	88621	87612	Turkey_EBA_AEG + Russia_Samara_EBA_Yamnaya_QC	0.688 (Z=7.96) / 0.312 (Z=3.61)	4	3.82	0.431
+run_ba_cline	wide16_ebasplit	1062	137384	88621	87612	Turkey_EBA_INLAND + Russia_Samara_EBA_Yamnaya_QC	0.705 (Z=9.09) / 0.295 (Z=3.81)	4	0.838	0.933
+run_ba_cline	wide16_ebasplit	1062	137384	88621	87612	Turkey_EBA_EAST + Russia_Samara_EBA_Yamnaya_QC	0.695 (Z=8.11) / 0.305 (Z=3.57)	4	2.37	0.668
+run_ba_kinprune	wide16_yamprune0443	1062	137384	125076	123591	Turkey_EBA_QC + Russia_Samara_EBA_Yamnaya_QC	0.679 (Z=9.29) / 0.321 (Z=4.38)	4	0.955	0.917
+run_ba_kinprune	wide16_yamprune25026	1062	137384	125076	123602	Turkey_EBA_QC + Russia_Samara_EBA_Yamnaya_QC	0.679 (Z=9.36) / 0.321 (Z=4.42)	4	1.00	0.909

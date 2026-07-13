@@ -1,0 +1,8 @@
+script: run_test3_controls_v3
+prefix: postBA_arb
+f2dir: f2_test3_v2  (reused; §7 stays on one basis)
+n_snps: 122891
+admissible_MLBA_baselines: 0
+headline_admissible: TRUE
+RULE: no fold is computed on a baseline that is not admissible.
+VOIDS: run_test3_sourceswap.R (2x2) and the Turkey_MLBA rows of run_test3_v2.R

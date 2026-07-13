@@ -1,0 +1,8 @@
+script: run_uniform_3source
+prefix: postBA_arb
+f2dir: f2_uniform_3source
+maxmiss: 0  blgsize: 0.05
+left: Turkey_N_QC + Iran_GanjDareh_N_QC + Russia_Eneolithic_Steppe_QC
+n_populations: 14
+n_jackknife_blocks: 708
+phi: NOT MEASURABLE on this panel/right set -- see PRED-F. Bracket used instead.

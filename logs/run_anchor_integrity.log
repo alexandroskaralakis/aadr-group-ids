@@ -1,0 +1,106 @@
+New names:
+• `Sum total of ROH segments >20cM` -> `Sum total of ROH segments >20cM...33`
+• `Sum total of ROH segments >20cM` -> `Sum total of ROH segments >20cM...34`
+Joined annotation for 442 / 443 individuals.
+
+SUB-POOLS BUILT FROM THE ANNOTATION:
+# A tibble: 4 × 3
+  pop                newpop             n
+  <chr>              <chr>          <int>
+1 Greece_Minoan_POOL Minoan_CHANIA     23
+2 Greece_Minoan_POOL Minoan_LASITHI    26
+3 Greece_Minoan_POOL Minoan_OTHER       9
+4 Turkey_N_QC        Turkey_KUMTEPE     1
+
+
+######## TEST 1: Greece_Minoan_POOL -- one population, or a bin? ########
+  [f2_ai_sites]  9 pops  706 blocks  88,776 SNPs
+
+>> POWER WARNING: splitting the Minoan pool into 3 sub-pools at maxmiss=0
+>> costs a large share of the basis (each sub-pool needs complete data).
+>> A NON-rejection here is therefore NOT evidence of homogeneity -- it is a
+>> weaker test on fewer SNPs. Only a REJECTION is conclusive.
+
+-- by SITE: Lasithi (Early/Middle Minoan) vs Chania (Late Minoan III) --
+ℹ Computing f4 stats...
+ℹ Computing number of admixture waves...
+# A tibble: 1 × 7
+  f4rank   dof chisq       p dofdiff chisqdiff p_nested
+   <int> <int> <dbl>   <dbl>   <int>     <dbl>    <dbl>
+1      0     5  15.8 0.00736      NA        NA       NA
+
+  rank 0 p = 0.007364  ->  REJECTED: THE MINOAN POOL IS A BIN
+
+-- by DATE: pre- vs post-3600 BP (Mycenaean takeover ~3400 BP) --
+  [f2_ai_dates]  8 pops  708 blocks  121,732 SNPs
+ℹ Computing f4 stats...
+ℹ Computing number of admixture waves...
+# A tibble: 1 × 7
+  f4rank   dof chisq       p dofdiff chisqdiff p_nested
+   <int> <int> <dbl>   <dbl>   <int>     <dbl>    <dbl>
+1      0     5  19.8 0.00139      NA        NA       NA
+
+  rank 0 p = 0.001387  ->  REJECTED: the split is TEMPORAL, not just spatial
+
+-- if it IS a bin: does the LATE fraction carry steppe? --
+  [f2_ai_lm3]  9 pops  708 blocks  122,365 SNPs
+ℹ Computing f4 stats...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+  Minoan_LATE <- Minoan_EARLY + Yamnaya    p = 0.003047
+    Minoan_EARLY 91.4 (Z 16.41) | Russia_Yamnaya_QC 8.6 (Z 1.54)   [inadmissible]
+  >> A significant Yamnaya term = the 'Minoan' pool contains MYCENAEANS.
+
+######## TEST 2: Turkey_N_QC -- with and without Kumtepe (5615 BP) ########
+Two panels, therefore TWO BASES. Both printed. This is unavoidable and declared.
+
+  [f2_ai_kumIN]  10 pops  708 blocks  122,704 SNPs
+  [f2_ai_kumOUT]  10 pops  708 blocks  122,702 SNPs
+
+ℹ Computing f4 stats...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+  Turkey_N_QC (34, Kumtepe IN) [122,704 SNPs]  60.1 / 26.2 / 13.7   p = 0.7749
+      Z: 6.44 / 4.34 / 2.32   [ADMISSIBLE]
+ℹ Computing f4 stats...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+  Turkey_N_QC (33, Kumtepe OUT) [122,702 SNPs]  60.0 / 26.2 / 13.7   p = 0.7669
+      Z: 6.44 / 4.35 / 2.33   [ADMISSIBLE]
+
+  WEIGHT SHIFT: ANF -0.1   Iran +0.1   steppe +0.0  points
+  >> The logged canonical result is 60.0 / 26.4 / 13.6, p = 0.752
+  >> on a DIFFERENT basis (122,804). Compare the two rows ABOVE to each
+  >> other, never to that. If they differ by >2 points, ONE CHALCOLITHIC
+  >> INDIVIDUAL IS MOVING THE PROJECT'S HEADLINE NUMBER.
+
+######## TEST 3: is Serbia_IronGates_Mesolithic a reference, or a source? ########
+Farming reaches the Danube Gorges ~8,000 BP. The pool spans 11,465-7,803 BP.
+
+  [f2_ai_ig]  8 pops  709 blocks  123,405 SNPs
+
+-- (a) f4: does the LATE fraction lean toward Anatolian farmers? --
+# A tibble: 1 × 8
+  pop1  pop2        pop3            pop4                est      se     z      p
+  <chr> <chr>       <chr>           <chr>             <dbl>   <dbl> <dbl>  <dbl>
+1 Mbuti Turkey_N_QC IronGates_EARLY IronGates_LATE -3.78e-4 2.27e-4 -1.67 0.0956
+  >> Z << 0 means Turkey_N shares MORE drift with LATE Iron Gates.
+
+-- (b) qpAdm: model the late fraction from the early + farmers --
+ℹ Computing f4 stats...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+  IronGates_LATE <- IronGates_EARLY + Turkey_N   p = 0.138
+    IronGates_EARLY 104.7 (Z 65.35) | Turkey_N_QC -4.7 (Z -2.95)   [inadmissible]
+
+  >> A POSITIVE, SIGNIFICANT Turkey_N weight means one of the six
+  >> REFERENCES carries ancestry from a SOURCE. That is the Harney
+  >> violation -- and Test 3 (the diagnostic) NEVER SAW IT, because it
+  >> cleared the six only against the MINOAN source. Turkey_N has no
+  >> Test-3 control in this panel. Paper B must say so.
+
+DONE. Rscript run_anchor_integrity.R > manifest/run_anchor_integrity.log 2>&1

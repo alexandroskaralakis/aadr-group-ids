@@ -1,0 +1,8 @@
+model,one_source,p,admissible,reason,weights
+MLBA <- Turkey_EBA  (cladality),TRUE,4.718396461085143e-5,FALSE,cladality (weight forced to 1),NA
+MLBA <- Turkey_EBA + Iran,FALSE,1.466921579611747e-4,FALSE,a term is n.s. (|Z| <= 2); model rejected,Turkey_EBA_WEST 91.5 (Z 20.37) | Iran_GanjDareh_N_QC 8.5 (Z 1.90)
+MLBA <- Turkey_EBA + Turkey_N,FALSE,0.11829989652114396,FALSE,weight < 0; weight > 1,Turkey_EBA_WEST 135.1 (Z 12.36) | Turkey_N_QC -35.1 (Z -3.21)
+MLBA <- Minoan  (cladality),TRUE,6.719762596605944e-46,FALSE,cladality (weight forced to 1),NA
+MLBA <- Minoan + Iran,FALSE,2.1883536254105834e-11,FALSE,model rejected,Greece_Minoan_POOL 68.3 (Z 15.65) | Iran_GanjDareh_N_QC 31.7 (Z 7.27)
+MLBA <- Minoan + Turkey_N,FALSE,2.5156824448895764e-4,FALSE,weight < 0; weight > 1; model rejected,Greece_Minoan_POOL 316.2 (Z 7.22) | Turkey_N_QC -216.2 (Z -4.94)
+MLBA <- Turkey_N + Iran  (no anchor),FALSE,4.59260116796615e-15,FALSE,model rejected,Turkey_N_QC 59.4 (Z 10.60) | Iran_GanjDareh_N_QC 40.6 (Z 7.25)

@@ -1,0 +1,215 @@
+New names:
+• `Sum total of ROH segments >20cM` -> `Sum total of ROH segments >20cM...33`
+• `Sum total of ROH segments >20cM` -> `Sum total of ROH segments >20cM...34`
+RESOLVED COLUMNS (verify these before trusting anything below):
+  Group ID           -> Group ID
+  Locality           -> Locality
+  Political Entity   -> Political Entity
+  Latitude           -> Latitude
+  Longitude          -> Longitude
+  Date mean BP       -> Date mean in BP in years before 1950 CE [OxCal mu for a direct radi...
+  Publication        -> First publication: Abbreviation for earliest paper that reported da...
+  SNPs hit           -> SNPs hit on autosomal targets (Computed using easystats on enhance ...
+
+Loaded 23089 individuals in 3897 group IDs.
+
+Computing per-group metrics...
+
+######## POSITIVE CONTROL ########
+# A tibble: 2 × 9
+  group           n n_localities n_pubs n_platforms span_km span_yr n_period_out
+  <chr>       <int>        <int>  <int>       <int>   <dbl>   <dbl>        <int>
+1 Turkey_EBA     30            8      4           3    1293    1350            2
+2 Turkey_MLBA    38            2      2           1       0     552            0
+  n_flags
+    <int>
+1       5
+2       0
+
+>> Turkey_EBA flagged. The instrument works on the case we know.
+>> NOTE: Turkey_MLBA may carry FEW flags -- it is a single site, single
+>> region, homogeneous. Its defect is that its NAME is wrong, and no
+>> metric can see that. THAT IS THE PAPER'S CENTRAL LIMITATION.
+>> The automated audit finds INCOHERENT groups. It cannot find
+>> MISNAMED coherent ones. Those need the Locality column and a human.
+
+######## HEADLINE NUMBERS ########
+  groups with n >= 2:                 2090
+  --- THE FIVE SOUND FLAGS ---
+  >= 2 genotyping platforms:          416 / 2090  (19.9%)
+  >= 3 distinct localities:           348 / 2090  (16.7%)
+  temporal span >= 800 yr:            192 / 2090  (9.2%)
+  geographic span >= 300 km:          178 / 2090  (8.5%)
+  >= 3 publications:                  86 / 2090  (4.1%)
+  THREE OR MORE OF THE FIVE:          116 / 2090  (5.6%)
+  TWO OR MORE OF THE FIVE:            290 / 2090  (13.9%)
+
+  --- TWO WITHDRAWN FLAGS (reported, NOT counted -- see code) ---
+  >= 2 political entities:  1 / 2090  (0.0%)   [CIRCULAR]
+  period-token violation:   278 / 2090  (13.3%)   [MEASURES OUR CHRONOLOGY TABLE]
+
+######## THE 40 WORST OFFENDERS ########
+# A tibble: 40 × 9
+   group                           n n_localities n_pubs n_platforms span_km
+   <chr>                       <int>        <int>  <int>       <int>   <dbl>
+ 1 Kazakhstan_IA                  14            5      3           2    2296
+ 2 Turkey_BA                      14            5      3           2    1293
+ 3 Turkey_EBA                     30            8      4           3    1293
+ 4 Spain_MLN                      50           10      4           2     885
+ 5 Spain_EN                       23            8      6           2     752
+ 6 Turkey_N                       68            6      7           3     743
+ 7 France_Mesolithic              18            9      4           2     724
+ 8 Spain_C                       112           23     10           3     724
+ 9 Spain_EBA                      72           19      4           2     714
+10 Spain_Mesolithic               15           10      5           2     710
+11 Russia_Irkutsk_N               18           10      5           3     688
+12 Turkey_PPN                     32            4      6           2     482
+13 Scotland_N                     74           20      6           3     458
+14 Russia_Irkutsk_EN              14            5      3           2     391
+15 England_N                      46           20      5           2     390
+16 Russia_AltaiKrai_N             34            8      4           3     368
+17 Russia_Irkutsk_EBA             34           15      4           2     358
+18 Sweden_Mesolithic               7            6      4           2     305
+19 Kazakhstan_MLBA                33           12      2           2    2210
+20 Turkey_C                       67           10      3           1    1133
+21 Sweden_Viking                 145           18      3           1     796
+22 Spain_BA                       28           14      5           2     720
+23 Turkey_IA                       6            3      4           2     621
+24 Uzbekistan_BA                  31            4      1           3     581
+25 Russia_Novosibirsk_N           12            3      2           3     539
+26 England_IA                     66           11      4           2     525
+27 England_EarlyMedieval_Saxon    83           11      3           2     424
+28 Poland_Mesolithic               4            3      2           2     415
+29 Croatia_MBA                    17            7      4           2     386
+30 Poland_GlobularAmphora         33            7      3           2     382
+31 Kazakhstan_EIA                  3            3      3           2     377
+32 Hungary_LateC_Baden            17            7      3           2     303
+33 Croatia_EIA                    24            7      4           3     284
+34 Czechia_N                      23           14      3           3     281
+35 Portugal_C                     14            7      4           2     255
+36 Wales_N                        11            7      3           2     207
+37 Ukraine_Mesolithic             19            4      4           2     199
+38 Hungary_MN                     20            9      5           3     191
+39 Ukraine_N                      37            9      5           2     169
+40 Portugal_LN_C                   8            3      3           2     136
+   span_yr n_period_out n_flags
+     <dbl>        <int>   <int>
+ 1    1201           10       5
+ 2    1166            0       5
+ 3    1350            2       5
+ 4    1291            0       5
+ 5     925            0       5
+ 6    3046            2       5
+ 7    5840           17       5
+ 8    1854            0       5
+ 9     883           65       5
+10    2752           15       5
+11    2816           15       5
+12    3247            0       5
+13    1898           74       5
+14    1945            0       5
+15    1301           46       5
+16    3448           12       5
+17    2973            5       5
+18    2465            7       5
+19    1510            2       4
+20    2502            0       4
+21     839            0       4
+22     650            0       4
+23     477            3       4
+24     900            0       4
+25    2769            7       4
+26     770           52       4
+27     623            0       4
+28    2559            3       4
+29     390            5       4
+30     669            0       4
+31     296            0       4
+32     167            0       4
+33    1484            0       4
+34    2488           20       4
+35    4346            0       4
+36     914           11       4
+37    5411            5       4
+38    1191            0       4
+39    2445            8       4
+40    1292            0       4
+
+######## GROUPS SPANNING >= 2 MODERN COUNTRIES ########
+# A tibble: 1 × 5
+  group       n n_polities span_km
+  <chr>   <int>      <int>   <dbl>
+1 BantuSA     7          3     687
+  localities                                                                    
+  <chr>                                                                         
+1 Botswana or Namibia, modern, 1 | Lesotho, modern | South Africa, modern, 1 | …
+
+######## PERIOD-TOKEN VIOLATIONS (a name that lies about the date) ########
+  2210 individuals sit outside their own group's period window.
+# A tibble: 30 × 4
+   id             group                            bp
+   <chr>          <chr>                         <dbl>
+ 1 Darra.I.Kur.AG Afghanistan_DarraiKurCave_MBA  4466
+ 2 I14691.AG      Albania_Cinamak_BA_IA          3500
+ 3 I16251.AG      Albania_Cinamak_IA              525
+ 4 I16707.AG      Armenia_Karnut_EBA_EIA         2823
+ 5 I1656.AG       Armenia_Katnaghbiur1_MBA       3397
+ 6 I17183.AG      Armenia_Keti_MBA               3270
+ 7 I17183.SG      Armenia_Keti_MBA               3270
+ 8 I18470.AG      Armenia_Noratus_BA_IA          3375
+ 9 I1657.AG       Armenia_Talin_EBA_KuraAraxes   5123
+10 I1658.AG       Armenia_Talin_EBA_KuraAraxes   5162
+11 WOL001.AG      Austria_Mesolithic             8784
+12 WOL001_d.AG    Austria_Mesolithic             8784
+13 I13629.AG      Belgium_N                      4725
+14 I13631.AG      Belgium_N                      4725
+15 I13654.AG      Belgium_N                      4750
+16 I13656.AG      Belgium_N                      4750
+17 I13649.AG      Belgium_N                      4775
+18 I18068.AG      Belgium_N                      4858
+19 I18067.AG      Belgium_N                      4900
+20 I21565.AG      Belgium_N                      4900
+21 I21568.AG      Belgium_N                      4900
+22 I21570.AG      Belgium_N                      4911
+23 I13627.AG      Belgium_N                      5153
+24 I7010.AG       Belgium_N                      5800
+25 I2520.AG       Bulgaria_Dzhulyunitsa_EBA      5153
+26 I2520.DG       Bulgaria_Dzhulyunitsa_EBA      5153
+27 I2520.SG       Bulgaria_Dzhulyunitsa_EBA      5153
+28 I2176.AG       Bulgaria_Smyadovo_EBA          5146
+29 I2177.AG       Bulgaria_Smyadovo_EBA          5150
+30 I1680.AG       Cambodia_IA                    1790
+   loc                                                                         
+   <chr>                                                                       
+ 1 Darra-i-Kur Cave (Badakhshan Province, near village of Chinār-i Gunjus Khān)
+ 2 Çinamak (Northern Albania, Kukës County, Kukës Municipality, Surroj)        
+ 3 Çinamak (Northern Albania, Kukës County, Kukës Municipality, Surroj)        
+ 4 Karnut (Shirak Province, Akhuryan Municipality)                             
+ 5 Katnaghbiur-1 (Aragatsotn Province, Talin Muncipality)                      
+ 6 Keti (Shirak Province, Akhuryan Municipality)                               
+ 7 Keti (Shirak Province, Akhuryan Municipality)                               
+ 8 Noratus (Gegharkunik Province, Gavar Municipality)                          
+ 9 Talin (Aragatsotn Province, Talin Municipality)                             
+10 Talin (Aragatsotn Province, Talin Municipality)                             
+11 Wöllersdorf (Niederösterreich, Wiener Neustadt(Land))                       
+12 Wöllersdorf (Niederösterreich, Wiener Neustadt(Land))                       
+13 Grotte du Mont Falise (Wallonne Gewest, de Huy Arrondissement, Wanze)       
+14 Grotte du Mont Falise (Wallonne Gewest, de Huy Arrondissement, Wanze)       
+15 Abri Sandron (Wallonne Gewest, Luik, Huccorgne)                             
+16 Abri Sandron (Wallonne Gewest, Luik, Huccorgne)                             
+17 Grotte du Mont Falise (Wallonne Gewest, de Huy Arrondissement, Wanze)       
+18 Pommeroeul (Wallonne Gewest, Henegouwen)                                    
+19 Pommeroeul (Wallonne Gewest, Henegouwen)                                    
+20 Pommeroeul (Wallonne Gewest, Henegouwen)                                    
+21 Pommeroeul (Wallonne Gewest, Henegouwen)                                    
+22 Pommeroeul (Wallonne Gewest, Henegouwen)                                    
+23 Trou Al'Wesse (Liège Province, Modave)                                      
+24 Grotte de la Faille du Burin (Wallonne Gewest, Namen)                       
+25 Dzhulyunitsa (Veliko Tarnovo Province, Lyaskovets Municipality)             
+26 Dzhulyunitsa (Veliko Tarnovo Province, Lyaskovets Municipality)             
+27 Dzhulyunitsa (Veliko Tarnovo Province, Lyaskovets Municipality)             
+28 Smyadovo (Shumen Province, Smyadovo Municipality)                           
+29 Smyadovo (Shumen Province, Smyadovo Municipality)                           
+30 Vat Komnou (Angkor Borei)                                                   
+
+DONE. Rscript run_aadr_audit.R > manifest/run_aadr_audit.log 2>&1

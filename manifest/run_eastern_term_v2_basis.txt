@@ -1,0 +1,13 @@
+script: run_eastern_term_v2
+prefix: postBA_arb
+maxmiss: 0  blgsize: 0.05
+
+THIS SCRIPT USES MULTIPLE BASES BY DESIGN. Each table names its own.
+  PART 2 (required)      CORE extract      10 pops  124,362 SNPs
+  PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs
+  PART 4 (eastern)       COMMON extract    14 pops  101,706 SNPs  [DEGRADED]
+  PART 5 (robustness)    one extract per candidate -- rows NOT comparable
+  PART 6 (qpWave)        MINIMAL extract   121,107 SNPs
+
+Israel_Natufian_QC is measured in PART 1 and never modelled.
+Its SNP cost is extract-dependent: quote it WITH its extract, never bare.

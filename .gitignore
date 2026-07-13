@@ -1,0 +1,12 @@
+*.geno
+*.snp
+*.ind
+*.anno
+f2_*/
+panel_*
+postBA_*
+merged_*
+.Rhistory
+.RData
+.DS_Store
+manifest/extract_f2_console_bronze_age.txt

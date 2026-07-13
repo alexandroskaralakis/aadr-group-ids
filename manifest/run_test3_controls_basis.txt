@@ -1,0 +1,12 @@
+script: run_test3_controls
+prefix: postBA_arb
+f2dir: f2_test3_controls
+maxmiss: 0  blgsize: 0.05
+n_populations: 15
+n_jackknife_blocks: 708
+n_snps: 122886
+headline_p_six: 0.51129
+headline_p_kotias: 0.012189
+headline_fold: 41.95
+NOTE: this basis supersedes postBA_west/122,969 for ALL of §7.
+      §7 must be quoted from ONE basis or it is a cross-basis presentation.

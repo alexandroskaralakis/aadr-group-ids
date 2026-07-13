@@ -1,0 +1,10 @@
+script: run_aadr_audit
+anno: v66.p1_1240K.aadr.PUB.anno
+n_individuals: 23089
+n_groups_n>=2: 2090
+n_groups_3plus_flags: 116
+Flags: >=3 localities; >=2 polities; >=3 pubs; >=2 platforms;
+       >=300 km span; >=800 yr span; >=1 individual outside period window.
+LIMITATION: detects INCOHERENT groups. Cannot detect MISNAMED coherent ones
+            (e.g. Turkey_MLBA = Alalakh). Those require the Locality field
+            and human judgement. State this prominently.

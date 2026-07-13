@@ -22,3 +22,8 @@ clean_minoan/*.snp
 clean_minoan/*.ind
 clean_minoan/f2_*/
 /tmp*
+genome_*
+*.doibak
+*.txt.gz
+23andMe*
+*_Full_*.txt

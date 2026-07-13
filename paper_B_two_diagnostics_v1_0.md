@@ -176,7 +176,7 @@ Harney et al. examine the `allsnps` option directly, and quantify the collapse: 
 
 ## Data and code availability
 
-**Scripts, logs and manifests: https://doi.org/10.5281/zenodo.21333493** (archived from https://github.com/alexandroskaralakis/aadr-group-ids).
+**Scripts, logs and manifests: https://doi.org/10.5281/zenodo.21333492** (archived from https://github.com/alexandroskaralakis/aadr-group-ids).
 
 Every number in this paper is emitted by a versioned script in `scripts/` into a log in `logs/`. `manifest/` carries the `extract_f2` population list and SNP basis for each run — the quantity §3 shows to be decisive. `manifest/RETRACTED.md` documents the withdrawn analyses, including the basis-polluted run from which §3's exhibit was built.
 
@@ -193,4 +193,4 @@ Every number in this paper is emitted by a versioned script in `scripts/` into a
 - Maier R, Flegontov P, Flegontova O, Işıldak U, Changmai P, Reich D (2023). On the limits of fitting complex models of population history to f-statistics. *eLife* 12: e85492.
 - Lazaridis I et al. (2017). Genetic origins of the Minoans and Mycenaeans. *Nature* 548: 214–218.
 - Mallick S et al. (2024). The Allen Ancient DNA Resource (AADR). *Scientific Data* 11: 182.
-- [Companion paper] *Group IDs are not populations: an audit of the Allen Ancient DNA Resource.* Same repository: https://doi.org/10.5281/zenodo.21333493
+- [Companion paper] *Group IDs are not populations: an audit of the Allen Ancient DNA Resource.* Same repository: https://doi.org/10.5281/zenodo.21333492

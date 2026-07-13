@@ -252,7 +252,7 @@ And when we finally built the instrument to catch it, **it could not see the cas
 
 ## Data and code availability
 
-**Scripts, logs and manifests: https://doi.org/10.5281/zenodo.21333493** (archived from https://github.com/alexandroskaralakis/aadr-group-ids).
+**Scripts, logs and manifests: https://doi.org/10.5281/zenodo.21333492** (archived from https://github.com/alexandroskaralakis/aadr-group-ids).
 
 Every number in this paper is emitted by a versioned script in `scripts/` into a log in `logs/`. `manifest/` carries the `extract_f2` population list and SNP basis for each run. `manifest/RETRACTED.md` documents the analyses that were withdrawn during this work, and why — including two whose folds were computed against inadmissible baselines, and one that polluted its own SNP basis.
 

@@ -1,0 +1,73 @@
+==========================================================
+ build_minoan_panel.sh  v2
+ Mon Jul 13 13:16:41 EEST 2026
+==========================================================
+
+[1] Greece_Minoan_POOL members in postBA_arb.ind: 58
+
+[2] Columns resolved from header:  ID=1  Date=11  Group=15  Locality=16
+    Matches the verified layout.
+
+[3] AADR Group ID -> site arm  (EYEBALL EVERY ROW):
+     26  Greece_Crete_HgCharalambos_EMBA -> Crete_Lasithi_EMBA
+     23  Greece_Crete_LBA -> Crete_Chania_LBA
+      4  Greece_Crete_MoniOdigitria_BA -> EXCLUDED
+      2  Greece_Crete_LBA -> EXCLUDED
+      1  Greece_Crete_Zakros_Karaviadaina_BA -> EXCLUDED
+      1  Greece_Crete_NecropolisofArmenoi_BA -> EXCLUDED
+      1  Greece_Crete_Aposelemis_LBA -> EXCLUDED
+
+    Site arm:
+      Crete_Chania_LBA       23
+      Crete_Lasithi_EMBA     26
+      EXCLUDED               9
+    Date arm (threshold 3600 BP, all 58):
+      Crete_EARLY            31
+      Crete_LATE             27
+    Date ranges:
+      Crete_EARLY            3768 - 4177 BP
+      Crete_LATE             3135 - 3525 BP
+    Excluded from the site arm:
+      APO022.AG      Greece_Crete_Aposelemis_LBA          Heraklion (Crete)
+      I14916.AG      Greece_Crete_Zakros_Karaviadaina_BA  "Karaviadaina (Crete, Zakros)"
+      I9123.AG       Greece_Crete_NecropolisofArmenoi_BA  "Necropolis of Armenoi (Crete, NW coast)"
+      I9127.AG       Greece_Crete_MoniOdigitria_BA        "Moni Odigitria (Crete, Heraklion)"
+      I9129.AG       Greece_Crete_MoniOdigitria_BA        "Moni Odigitria (Crete, Heraklion)"
+      I9130.AG       Greece_Crete_MoniOdigitria_BA        "Moni Odigitria (Crete, Heraklion)"
+      I9131.AG       Greece_Crete_MoniOdigitria_BA        "Moni Odigitria (Crete, Heraklion)"
+      kro008.SG      Greece_Crete_LBA                     Heraklion (Crete)
+      kro009.SG      Greece_Crete_LBA                     Heraklion (Crete)
+
+[5] Poplists: 2 left + 6 right per test -> dof = (2-1)*(6-1) = 5.
+    Nothing surplus is in either extract. Every population in an extract
+    sets the basis; none of these is unused by its model.
+
+[6] convertf -> panel_site
+    individuals: 192   panel SNPs: 1233013
+      Crete_Chania_LBA                 23
+      Crete_Lasithi_EMBA               26
+      Italy_Sicily_Epigravettian       12
+      Mbuti                            15
+      Morocco_Iberomaurusian           8
+      Papuan                           32
+      Russia_Kostenki_UP               3
+      Serbia_IronGates_Mesolithic      73
+
+[6] convertf -> panel_date
+    individuals: 201   panel SNPs: 1233013
+      Crete_EARLY                      31
+      Crete_LATE                       27
+      Italy_Sicily_Epigravettian       12
+      Mbuti                            15
+      Morocco_Iberomaurusian           8
+      Papuan                           32
+      Russia_Kostenki_UP               3
+      Serbia_IronGates_Mesolithic      73
+
+[7] Target-genome check (must be CLEAN):
+    CLEAN — no target genome in either panel.
+
+==========================================================
+ DONE. Manifest: manifest/build_minoan_panel.txt
+ Next: Rscript run_minoan_split_clean.R 2>&1 | tee manifest/run_minoan_split_clean.log
+==========================================================

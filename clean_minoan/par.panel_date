@@ -1,0 +1,9 @@
+genotypename:    /Users/ell_thales/qpadm_project2/v66.p1_1240K.aadr.patch.PUB.geno
+snpname:         /Users/ell_thales/qpadm_project2/v66.p1_1240K.aadr.patch.PUB.snp
+indivname:       clean_minoan/date.ind
+outputformat:    EIGENSTRAT
+genotypeoutname: clean_minoan/panel_date.geno
+snpoutname:      clean_minoan/panel_date.snp
+indivoutname:    clean_minoan/panel_date.ind
+poplistname:     clean_minoan/poplist_date.txt
+hashcheck:       NO

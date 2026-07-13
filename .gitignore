@@ -10,3 +10,15 @@ merged_*
 .RData
 .DS_Store
 manifest/extract_f2_console_bronze_age.txt
+*.bed
+*.bim
+*.fam
+*.bak
+mydna*
+digitalfire*
+*_plink*
+clean_minoan/*.geno
+clean_minoan/*.snp
+clean_minoan/*.ind
+clean_minoan/f2_*/
+/tmp*

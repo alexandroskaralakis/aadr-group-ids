@@ -1,0 +1,460 @@
+file,line,basis,text
+basis_census_mentions.csv,2,142250,"run_74_replication.log,102,142250,ℹ postBA_west.geno has 400 samples and 142250 SNPs"
+basis_census_mentions.csv,3,123871,"run_74_replication.log,104,123871,! 123871 SNPs remain after filtering. 123000 are polymorphic."
+basis_census_mentions.csv,3,123000,"run_74_replication.log,104,123871,! 123871 SNPs remain after filtering. 123000 are polymorphic."
+basis_census_mentions.csv,4,123871,"run_74_replication.log,104,123000,! 123871 SNPs remain after filtering. 123000 are polymorphic."
+basis_census_mentions.csv,4,123000,"run_74_replication.log,104,123000,! 123871 SNPs remain after filtering. 123000 are polymorphic."
+basis_census_mentions.csv,5,123871,"run_74_replication.log,105,123871,ℹ Allele frequency matrix for 123871 SNPs and 12 populations is 21 MB"
+basis_census_mentions.csv,6,1233013,"run_aeg_loo.log,106,1233013,ℹ loo_I5733.geno has 221 samples and 1233013 SNPs"
+basis_census_mentions.csv,7,571419,"run_aeg_loo.log,108,571419,! 571419 SNPs remain after filtering. 524089 are polymorphic."
+basis_census_mentions.csv,7,524089,"run_aeg_loo.log,108,571419,! 571419 SNPs remain after filtering. 524089 are polymorphic."
+basis_census_mentions.csv,8,571419,"run_aeg_loo.log,108,524089,! 571419 SNPs remain after filtering. 524089 are polymorphic."
+basis_census_mentions.csv,8,524089,"run_aeg_loo.log,108,524089,! 571419 SNPs remain after filtering. 524089 are polymorphic."
+basis_census_mentions.csv,9,571419,"run_aeg_loo.log,109,571419,ℹ Allele frequency matrix for 571419 SNPs and 9 populations is 82 MB"
+basis_census_mentions.csv,10,1233013,"run_aeg_loo.log,231,1233013,ℹ loo_I5735.geno has 221 samples and 1233013 SNPs"
+basis_census_mentions.csv,11,696349,"run_aeg_loo.log,233,696349,! 696349 SNPs remain after filtering. 638680 are polymorphic."
+basis_census_mentions.csv,11,638680,"run_aeg_loo.log,233,696349,! 696349 SNPs remain after filtering. 638680 are polymorphic."
+basis_census_mentions.csv,12,696349,"run_aeg_loo.log,233,638680,! 696349 SNPs remain after filtering. 638680 are polymorphic."
+basis_census_mentions.csv,12,638680,"run_aeg_loo.log,233,638680,! 696349 SNPs remain after filtering. 638680 are polymorphic."
+basis_census_mentions.csv,13,696349,"run_aeg_loo.log,234,696349,ℹ Allele frequency matrix for 696349 SNPs and 9 populations is 100 MB"
+basis_census_mentions.csv,14,1233013,"run_aeg_loo.log,356,1233013,ℹ loo_ulu117.geno has 221 samples and 1233013 SNPs"
+basis_census_mentions.csv,15,611041,"run_aeg_loo.log,358,611041,! 611041 SNPs remain after filtering. 561372 are polymorphic."
+basis_census_mentions.csv,15,561372,"run_aeg_loo.log,358,611041,! 611041 SNPs remain after filtering. 561372 are polymorphic."
+basis_census_mentions.csv,16,611041,"run_aeg_loo.log,358,561372,! 611041 SNPs remain after filtering. 561372 are polymorphic."
+basis_census_mentions.csv,16,561372,"run_aeg_loo.log,358,561372,! 611041 SNPs remain after filtering. 561372 are polymorphic."
+basis_census_mentions.csv,17,611041,"run_aeg_loo.log,359,611041,ℹ Allele frequency matrix for 611041 SNPs and 9 populations is 88 MB"
+basis_census_mentions.csv,18,1233013,"run_aeg_loo.log,490,1233013,ℹ solo_I5733.geno has 221 samples and 1233013 SNPs"
+basis_census_mentions.csv,19,564922,"run_aeg_loo.log,492,564922,! 564922 SNPs remain after filtering. 519296 are polymorphic."
+basis_census_mentions.csv,19,519296,"run_aeg_loo.log,492,564922,! 564922 SNPs remain after filtering. 519296 are polymorphic."
+basis_census_mentions.csv,20,564922,"run_aeg_loo.log,492,519296,! 564922 SNPs remain after filtering. 519296 are polymorphic."
+basis_census_mentions.csv,20,519296,"run_aeg_loo.log,492,519296,! 564922 SNPs remain after filtering. 519296 are polymorphic."
+basis_census_mentions.csv,21,564922,"run_aeg_loo.log,493,564922,ℹ Allele frequency matrix for 564922 SNPs and 9 populations is 81 MB"
+basis_census_mentions.csv,22,1233013,"run_aeg_loo.log,615,1233013,ℹ solo_I5735.geno has 221 samples and 1233013 SNPs"
+basis_census_mentions.csv,23,386166,"run_aeg_loo.log,617,386166,! 386166 SNPs remain after filtering. 355549 are polymorphic."
+basis_census_mentions.csv,23,355549,"run_aeg_loo.log,617,386166,! 386166 SNPs remain after filtering. 355549 are polymorphic."
+basis_census_mentions.csv,24,386166,"run_aeg_loo.log,617,355549,! 386166 SNPs remain after filtering. 355549 are polymorphic."
+basis_census_mentions.csv,24,355549,"run_aeg_loo.log,617,355549,! 386166 SNPs remain after filtering. 355549 are polymorphic."
+basis_census_mentions.csv,25,386166,"run_aeg_loo.log,618,386166,ℹ Allele frequency matrix for 386166 SNPs and 9 populations is 56 MB"
+basis_census_mentions.csv,26,1233013,"run_aeg_loo.log,740,1233013,ℹ solo_ulu117.geno has 221 samples and 1233013 SNPs"
+basis_census_mentions.csv,27,307851,"run_aeg_loo.log,742,307851,! 307851 SNPs remain after filtering. 281089 are polymorphic."
+basis_census_mentions.csv,27,281089,"run_aeg_loo.log,742,307851,! 307851 SNPs remain after filtering. 281089 are polymorphic."
+basis_census_mentions.csv,28,307851,"run_aeg_loo.log,742,281089,! 307851 SNPs remain after filtering. 281089 are polymorphic."
+basis_census_mentions.csv,28,281089,"run_aeg_loo.log,742,281089,! 307851 SNPs remain after filtering. 281089 are polymorphic."
+basis_census_mentions.csv,29,307851,"run_aeg_loo.log,743,307851,ℹ Allele frequency matrix for 307851 SNPs and 9 populations is 44 MB"
+basis_census_mentions.csv,30,142250,"run_aegean_vs_anatolian.log,102,142250,ℹ postBA_west.geno has 400 samples and 142250 SNPs"
+basis_census_mentions.csv,31,123825,"run_aegean_vs_anatolian.log,104,123825,! 123825 SNPs remain after filtering. 123047 are polymorphic."
+basis_census_mentions.csv,31,123047,"run_aegean_vs_anatolian.log,104,123825,! 123825 SNPs remain after filtering. 123047 are polymorphic."
+basis_census_mentions.csv,32,123825,"run_aegean_vs_anatolian.log,104,123047,! 123825 SNPs remain after filtering. 123047 are polymorphic."
+basis_census_mentions.csv,32,123047,"run_aegean_vs_anatolian.log,104,123047,! 123825 SNPs remain after filtering. 123047 are polymorphic."
+basis_census_mentions.csv,33,123825,"run_aegean_vs_anatolian.log,105,123825,ℹ Allele frequency matrix for 123825 SNPs and 13 populations is 22 MB"
+basis_census_mentions.csv,34,137384,"run_anchor_calibration.log,2,137384,ℹ wide16_calib.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,35,137384,"run_anchor_calibration.log,144,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,36,123506,"run_anchor_calibration.log,145,123506,! 123506 SNPs remain after filtering. 122642 are polymorphic."
+basis_census_mentions.csv,36,122642,"run_anchor_calibration.log,145,123506,! 123506 SNPs remain after filtering. 122642 are polymorphic."
+basis_census_mentions.csv,37,123506,"run_anchor_calibration.log,145,122642,! 123506 SNPs remain after filtering. 122642 are polymorphic."
+basis_census_mentions.csv,37,122642,"run_anchor_calibration.log,145,122642,! 123506 SNPs remain after filtering. 122642 are polymorphic."
+basis_census_mentions.csv,38,123506,"run_anchor_calibration.log,146,123506,ℹ Allele frequency matrix for 123506 SNPs and 12 populations is 21 MB"
+basis_census_mentions.csv,39,137384,"run_anchor_decisive.log,2,137384,ℹ wide16_anchors3.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,40,137384,"run_anchor_decisive.log,144,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,41,88619,"run_anchor_decisive.log,145,88619,! 88619 SNPs remain after filtering. 87524 are polymorphic."
+basis_census_mentions.csv,41,87524,"run_anchor_decisive.log,145,88619,! 88619 SNPs remain after filtering. 87524 are polymorphic."
+basis_census_mentions.csv,42,88619,"run_anchor_decisive.log,145,87524,! 88619 SNPs remain after filtering. 87524 are polymorphic."
+basis_census_mentions.csv,42,87524,"run_anchor_decisive.log,145,87524,! 88619 SNPs remain after filtering. 87524 are polymorphic."
+basis_census_mentions.csv,43,88619,"run_anchor_decisive.log,146,88619,ℹ Allele frequency matrix for 88619 SNPs and 11 populations is 14 MB"
+basis_census_mentions.csv,44,137384,"run_anchor_headtohead.log,2,137384,ℹ wide16_anchors.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,45,137384,"run_anchor_headtohead.log,144,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,46,89799,"run_anchor_headtohead.log,145,89799,! 89799 SNPs remain after filtering. 88880 are polymorphic."
+basis_census_mentions.csv,46,88880,"run_anchor_headtohead.log,145,89799,! 89799 SNPs remain after filtering. 88880 are polymorphic."
+basis_census_mentions.csv,47,89799,"run_anchor_headtohead.log,145,88880,! 89799 SNPs remain after filtering. 88880 are polymorphic."
+basis_census_mentions.csv,47,88880,"run_anchor_headtohead.log,145,88880,! 89799 SNPs remain after filtering. 88880 are polymorphic."
+basis_census_mentions.csv,48,89799,"run_anchor_headtohead.log,146,89799,ℹ Allele frequency matrix for 89799 SNPs and 10 populations is 14 MB"
+basis_census_mentions.csv,49,122704,"run_anchor_integrity_basis.txt,3,122704,basis_kumIN: 122704"
+basis_census_mentions.csv,50,122702,"run_anchor_integrity_basis.txt,4,122702,basis_kumOUT: 122702"
+basis_census_mentions.csv,51,137384,"run_anchor_robust.log,2,137384,ℹ merged_wide16_ba_canon.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,52,137384,"run_anchor_robust.log,144,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,53,125064,"run_anchor_robust.log,145,125064,! 125064 SNPs remain after filtering. 123452 are polymorphic."
+basis_census_mentions.csv,53,123452,"run_anchor_robust.log,145,125064,! 125064 SNPs remain after filtering. 123452 are polymorphic."
+basis_census_mentions.csv,54,125064,"run_anchor_robust.log,145,123452,! 125064 SNPs remain after filtering. 123452 are polymorphic."
+basis_census_mentions.csv,54,123452,"run_anchor_robust.log,145,123452,! 125064 SNPs remain after filtering. 123452 are polymorphic."
+basis_census_mentions.csv,55,125064,"run_anchor_robust.log,146,125064,ℹ Allele frequency matrix for 125064 SNPs and 9 populations is 18 MB"
+basis_census_mentions.csv,56,137384,"run_ba_cline.log,2,137384,ℹ wide16_ebasplit.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,57,137384,"run_ba_cline.log,144,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,58,88621,"run_ba_cline.log,145,88621,! 88621 SNPs remain after filtering. 87612 are polymorphic."
+basis_census_mentions.csv,58,87612,"run_ba_cline.log,145,88621,! 88621 SNPs remain after filtering. 87612 are polymorphic."
+basis_census_mentions.csv,59,88621,"run_ba_cline.log,145,87612,! 88621 SNPs remain after filtering. 87612 are polymorphic."
+basis_census_mentions.csv,59,87612,"run_ba_cline.log,145,87612,! 88621 SNPs remain after filtering. 87612 are polymorphic."
+basis_census_mentions.csv,60,88621,"run_ba_cline.log,146,88621,ℹ Allele frequency matrix for 88621 SNPs and 11 populations is 14 MB"
+basis_census_mentions.csv,61,137384,"run_ba_kinprune.log,2,137384,ℹ merged_wide16_ba_final.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,62,137384,"run_ba_kinprune.log,144,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,63,125076,"run_ba_kinprune.log,145,125076,! 125076 SNPs remain after filtering. 123612 are polymorphic."
+basis_census_mentions.csv,63,123612,"run_ba_kinprune.log,145,125076,! 125076 SNPs remain after filtering. 123612 are polymorphic."
+basis_census_mentions.csv,64,125076,"run_ba_kinprune.log,145,123612,! 125076 SNPs remain after filtering. 123612 are polymorphic."
+basis_census_mentions.csv,64,123612,"run_ba_kinprune.log,145,123612,! 125076 SNPs remain after filtering. 123612 are polymorphic."
+basis_census_mentions.csv,65,125076,"run_ba_kinprune.log,146,125076,ℹ Allele frequency matrix for 125076 SNPs and 9 populations is 18 MB"
+basis_census_mentions.csv,66,25026,"run_ba_kinprune.log,168,25026,ℹ wide16_yamprune25026.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,66,137384,"run_ba_kinprune.log,168,25026,ℹ wide16_yamprune25026.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,67,25026,"run_ba_kinprune.log,168,137384,ℹ wide16_yamprune25026.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,67,137384,"run_ba_kinprune.log,168,137384,ℹ wide16_yamprune25026.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,68,137384,"run_ba_kinprune.log,310,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,69,125076,"run_ba_kinprune.log,311,125076,! 125076 SNPs remain after filtering. 123602 are polymorphic."
+basis_census_mentions.csv,69,123602,"run_ba_kinprune.log,311,125076,! 125076 SNPs remain after filtering. 123602 are polymorphic."
+basis_census_mentions.csv,70,125076,"run_ba_kinprune.log,311,123602,! 125076 SNPs remain after filtering. 123602 are polymorphic."
+basis_census_mentions.csv,70,123602,"run_ba_kinprune.log,311,123602,! 125076 SNPs remain after filtering. 123602 are polymorphic."
+basis_census_mentions.csv,71,125076,"run_ba_kinprune.log,312,125076,ℹ Allele frequency matrix for 125076 SNPs and 9 populations is 18 MB"
+basis_census_mentions.csv,72,137384,"run_ba_kinprune.log,334,137384,ℹ wide16_yamprune0443.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,73,137384,"run_ba_kinprune.log,476,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,74,125076,"run_ba_kinprune.log,477,125076,! 125076 SNPs remain after filtering. 123591 are polymorphic."
+basis_census_mentions.csv,74,123591,"run_ba_kinprune.log,477,125076,! 125076 SNPs remain after filtering. 123591 are polymorphic."
+basis_census_mentions.csv,75,125076,"run_ba_kinprune.log,477,123591,! 125076 SNPs remain after filtering. 123591 are polymorphic."
+basis_census_mentions.csv,75,123591,"run_ba_kinprune.log,477,123591,! 125076 SNPs remain after filtering. 123591 are polymorphic."
+basis_census_mentions.csv,76,125076,"run_ba_kinprune.log,478,125076,ℹ Allele frequency matrix for 125076 SNPs and 9 populations is 18 MB"
+basis_census_mentions.csv,77,137384,"run_ba_natufian2.log,2,137384,ℹ merged_wide16_ba_final.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,78,137384,"run_ba_natufian2.log,144,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,79,44234,"run_ba_natufian2.log,145,44234,! 44234 SNPs remain after filtering. 43788 are polymorphic."
+basis_census_mentions.csv,79,43788,"run_ba_natufian2.log,145,44234,! 44234 SNPs remain after filtering. 43788 are polymorphic."
+basis_census_mentions.csv,80,44234,"run_ba_natufian2.log,145,43788,! 44234 SNPs remain after filtering. 43788 are polymorphic."
+basis_census_mentions.csv,80,43788,"run_ba_natufian2.log,145,43788,! 44234 SNPs remain after filtering. 43788 are polymorphic."
+basis_census_mentions.csv,81,44234,"run_ba_natufian2.log,146,44234,ℹ Allele frequency matrix for 44234 SNPs and 10 populations is 7 MB"
+basis_census_mentions.csv,82,137384,"run_ba_natufian2.log,184,137384,ℹ wide16_ebasplit.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,83,137384,"run_ba_natufian2.log,326,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,84,36166,"run_ba_natufian2.log,327,36166,! 36166 SNPs remain after filtering. 35732 are polymorphic."
+basis_census_mentions.csv,84,35732,"run_ba_natufian2.log,327,36166,! 36166 SNPs remain after filtering. 35732 are polymorphic."
+basis_census_mentions.csv,85,36166,"run_ba_natufian2.log,327,35732,! 36166 SNPs remain after filtering. 35732 are polymorphic."
+basis_census_mentions.csv,85,35732,"run_ba_natufian2.log,327,35732,! 36166 SNPs remain after filtering. 35732 are polymorphic."
+basis_census_mentions.csv,86,36166,"run_ba_natufian2.log,328,36166,ℹ Allele frequency matrix for 36166 SNPs and 10 populations is 5 MB"
+basis_census_mentions.csv,87,137384,"run_bronze_age_canonical.log,2,137384,ℹ merged_wide16_ba_canon.geno has 1062 samples and 137384 SNPs"
+basis_census_mentions.csv,88,137384,"run_bronze_age_canonical.log,144,137384,✔ 137384 SNPs read in total"
+basis_census_mentions.csv,89,125076,"run_bronze_age_canonical.log,145,125076,! 125076 SNPs remain after filtering. 123602 are polymorphic."
+basis_census_mentions.csv,89,123602,"run_bronze_age_canonical.log,145,125076,! 125076 SNPs remain after filtering. 123602 are polymorphic."
+basis_census_mentions.csv,90,125076,"run_bronze_age_canonical.log,145,123602,! 125076 SNPs remain after filtering. 123602 are polymorphic."
+basis_census_mentions.csv,90,123602,"run_bronze_age_canonical.log,145,123602,! 125076 SNPs remain after filtering. 123602 are polymorphic."
+basis_census_mentions.csv,91,125076,"run_bronze_age_canonical.log,146,125076,ℹ Allele frequency matrix for 125076 SNPs and 9 populations is 18 MB"
+basis_census_mentions.csv,92,137384,"run_composition_decomp.log,102,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs"
+basis_census_mentions.csv,93,123510,"run_composition_decomp.log,104,123510,! 123510 SNPs remain after filtering. 122804 are polymorphic."
+basis_census_mentions.csv,93,122804,"run_composition_decomp.log,104,123510,! 123510 SNPs remain after filtering. 122804 are polymorphic."
+basis_census_mentions.csv,94,123510,"run_composition_decomp.log,104,122804,! 123510 SNPs remain after filtering. 122804 are polymorphic."
+basis_census_mentions.csv,94,122804,"run_composition_decomp.log,104,122804,! 123510 SNPs remain after filtering. 122804 are polymorphic."
+basis_census_mentions.csv,95,123510,"run_composition_decomp.log,105,123510,ℹ Allele frequency matrix for 123510 SNPs and 14 populations is 23 MB"
+basis_census_mentions.csv,96,124362,"run_eastern_term_v2_basis.txt,6,124362,""PART 2 (required)      CORE extract      10 pops  124,362 SNPs"""
+basis_census_mentions.csv,97,124362,"run_eastern_term_v2_basis.txt,7,124362,""PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"""
+basis_census_mentions.csv,97,102314,"run_eastern_term_v2_basis.txt,7,124362,""PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"""
+basis_census_mentions.csv,97,101706,"run_eastern_term_v2_basis.txt,7,124362,""PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"""
+basis_census_mentions.csv,98,124362,"run_eastern_term_v2_basis.txt,7,102314,""PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"""
+basis_census_mentions.csv,98,102314,"run_eastern_term_v2_basis.txt,7,102314,""PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"""
+basis_census_mentions.csv,98,101706,"run_eastern_term_v2_basis.txt,7,102314,""PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"""
+basis_census_mentions.csv,99,124362,"run_eastern_term_v2_basis.txt,7,101706,""PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"""
+basis_census_mentions.csv,99,102314,"run_eastern_term_v2_basis.txt,7,101706,""PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"""
+basis_census_mentions.csv,99,101706,"run_eastern_term_v2_basis.txt,7,101706,""PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"""
+basis_census_mentions.csv,100,101706,"run_eastern_term_v2_basis.txt,8,101706,""PART 4 (eastern)       COMMON extract    14 pops  101,706 SNPs  [DEGRADED]"""
+basis_census_mentions.csv,101,121107,"run_eastern_term_v2_basis.txt,10,121107,""PART 6 (qpWave)        MINIMAL extract   121,107 SNPs"""
+basis_census_mentions.csv,102,121107,"run_eastern_term_v2_qpwave.txt,4,121107,qpwave_basis_snps: 121107"
+basis_census_mentions.csv,103,137384,"run_f4_negative_control.log,102,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs"
+basis_census_mentions.csv,104,124944,"run_f4_negative_control.log,104,124944,! 124944 SNPs remain after filtering. 124198 are polymorphic."
+basis_census_mentions.csv,104,124198,"run_f4_negative_control.log,104,124944,! 124944 SNPs remain after filtering. 124198 are polymorphic."
+basis_census_mentions.csv,105,124944,"run_f4_negative_control.log,104,124198,! 124944 SNPs remain after filtering. 124198 are polymorphic."
+basis_census_mentions.csv,105,124198,"run_f4_negative_control.log,104,124198,! 124944 SNPs remain after filtering. 124198 are polymorphic."
+basis_census_mentions.csv,106,124944,"run_f4_negative_control.log,105,124944,ℹ Allele frequency matrix for 124944 SNPs and 13 populations is 22 MB"
+basis_census_mentions.csv,107,1233013,"run_minoan_split_clean.log,141,1233013,ℹ panel_site.geno has 192 samples and 1233013 SNPs"
+basis_census_mentions.csv,108,1038102,"run_minoan_split_clean.log,143,1038102,! 1038102 SNPs remain after filtering. 950383 are polymorphic."
+basis_census_mentions.csv,108,950383,"run_minoan_split_clean.log,143,1038102,! 1038102 SNPs remain after filtering. 950383 are polymorphic."
+basis_census_mentions.csv,109,1038102,"run_minoan_split_clean.log,143,950383,! 1038102 SNPs remain after filtering. 950383 are polymorphic."
+basis_census_mentions.csv,109,950383,"run_minoan_split_clean.log,143,950383,! 1038102 SNPs remain after filtering. 950383 are polymorphic."
+basis_census_mentions.csv,110,1038102,"run_minoan_split_clean.log,144,1038102,ℹ Allele frequency matrix for 1038102 SNPs and 8 populations is 141 MB"
+basis_census_mentions.csv,111,1233013,"run_minoan_split_clean.log,279,1233013,ℹ panel_date.geno has 201 samples and 1233013 SNPs"
+basis_census_mentions.csv,112,1042205,"run_minoan_split_clean.log,281,1042205,! 1042205 SNPs remain after filtering. 955096 are polymorphic."
+basis_census_mentions.csv,112,955096,"run_minoan_split_clean.log,281,1042205,! 1042205 SNPs remain after filtering. 955096 are polymorphic."
+basis_census_mentions.csv,113,1042205,"run_minoan_split_clean.log,281,955096,! 1042205 SNPs remain after filtering. 955096 are polymorphic."
+basis_census_mentions.csv,113,955096,"run_minoan_split_clean.log,281,955096,! 1042205 SNPs remain after filtering. 955096 are polymorphic."
+basis_census_mentions.csv,114,1042205,"run_minoan_split_clean.log,282,1042205,ℹ Allele frequency matrix for 1042205 SNPs and 8 populations is 142 MB"
+basis_census_mentions.csv,115,33000,"run_minoan_split_clean.log,316,33000,""its own model never used, which cost ~33,000 SNPs;"""
+basis_census_mentions.csv,116,950383,"run_minoan_split_clean.log,322,950383,""site   : REJECTS at p = 3.176e-08 on 950,383 SNPs"""
+basis_census_mentions.csv,117,955096,"run_minoan_split_clean.log,323,955096,""date   : REJECTS at p = 4.1621e-10 on 955,096 SNPs"""
+basis_census_mentions.csv,118,950383,"run_minoan_split_clean.txt,19,950383,basis: 950383"
+basis_census_mentions.csv,119,955096,"run_minoan_split_clean.txt,28,955096,basis: 955096"
+basis_census_mentions.csv,120,142250,"run_pvalue_pathology.log,102,142250,ℹ postBA_west.geno has 400 samples and 142250 SNPs"
+basis_census_mentions.csv,121,123825,"run_pvalue_pathology.log,104,123825,! 123825 SNPs remain after filtering. 122784 are polymorphic."
+basis_census_mentions.csv,121,122784,"run_pvalue_pathology.log,104,123825,! 123825 SNPs remain after filtering. 122784 are polymorphic."
+basis_census_mentions.csv,122,123825,"run_pvalue_pathology.log,104,122784,! 123825 SNPs remain after filtering. 122784 are polymorphic."
+basis_census_mentions.csv,122,122784,"run_pvalue_pathology.log,104,122784,! 123825 SNPs remain after filtering. 122784 are polymorphic."
+basis_census_mentions.csv,123,123825,"run_pvalue_pathology.log,105,123825,ℹ Allele frequency matrix for 123825 SNPs and 12 populations is 21 MB"
+basis_census_mentions.csv,124,137384,"run_rotating.log,102,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs"
+basis_census_mentions.csv,125,123510,"run_rotating.log,104,123510,! 123510 SNPs remain after filtering. 122892 are polymorphic."
+basis_census_mentions.csv,125,122892,"run_rotating.log,104,123510,! 123510 SNPs remain after filtering. 122892 are polymorphic."
+basis_census_mentions.csv,126,123510,"run_rotating.log,104,122892,! 123510 SNPs remain after filtering. 122892 are polymorphic."
+basis_census_mentions.csv,126,122892,"run_rotating.log,104,122892,! 123510 SNPs remain after filtering. 122892 are polymorphic."
+basis_census_mentions.csv,127,123510,"run_rotating.log,105,123510,ℹ Allele frequency matrix for 123510 SNPs and 15 populations is 24 MB"
+basis_census_mentions.csv,128,142250,"run_test3.log,102,142250,ℹ postBA_west.geno has 400 samples and 142250 SNPs"
+basis_census_mentions.csv,129,123814,"run_test3.log,104,123814,! 123814 SNPs remain after filtering. 122969 are polymorphic."
+basis_census_mentions.csv,129,122969,"run_test3.log,104,123814,! 123814 SNPs remain after filtering. 122969 are polymorphic."
+basis_census_mentions.csv,130,123814,"run_test3.log,104,122969,! 123814 SNPs remain after filtering. 122969 are polymorphic."
+basis_census_mentions.csv,130,122969,"run_test3.log,104,122969,! 123814 SNPs remain after filtering. 122969 are polymorphic."
+basis_census_mentions.csv,131,123814,"run_test3.log,105,123814,ℹ Allele frequency matrix for 123814 SNPs and 13 populations is 22 MB"
+basis_census_mentions.csv,132,124252,"run_test3.log,232,124252,""This p is BASIS-DEPENDENT: 0.0146 at 124,252 SNPs; 0.0113 at 122,969."""
+basis_census_mentions.csv,132,122969,"run_test3.log,232,124252,""This p is BASIS-DEPENDENT: 0.0146 at 124,252 SNPs; 0.0113 at 122,969."""
+basis_census_mentions.csv,133,124252,"run_test3.log,232,122969,""This p is BASIS-DEPENDENT: 0.0146 at 124,252 SNPs; 0.0113 at 122,969."""
+basis_census_mentions.csv,133,122969,"run_test3.log,232,122969,""This p is BASIS-DEPENDENT: 0.0146 at 124,252 SNPs; 0.0113 at 122,969."""
+basis_census_mentions.csv,134,88776,"run_anchor_integrity.log,17,88776,""[f2_ai_sites]  9 pops  706 blocks  88,776 SNPs"""
+basis_census_mentions.csv,135,121732,"run_anchor_integrity.log,35,121732,""[f2_ai_dates]  8 pops  708 blocks  121,732 SNPs"""
+basis_census_mentions.csv,136,122365,"run_anchor_integrity.log,46,122365,""[f2_ai_lm3]  9 pops  708 blocks  122,365 SNPs"""
+basis_census_mentions.csv,137,122704,"run_anchor_integrity.log,58,122704,""[f2_ai_kumIN]  10 pops  708 blocks  122,704 SNPs"""
+basis_census_mentions.csv,138,122702,"run_anchor_integrity.log,59,122702,""[f2_ai_kumOUT]  10 pops  708 blocks  122,702 SNPs"""
+basis_census_mentions.csv,139,122704,"run_anchor_integrity.log,65,122704,""Turkey_N_QC (34, Kumtepe IN) [122,704 SNPs]  60.1 / 26.2 / 13.7   p = 0.7749"""
+basis_census_mentions.csv,140,122702,"run_anchor_integrity.log,71,122702,""Turkey_N_QC (33, Kumtepe OUT) [122,702 SNPs]  60.0 / 26.2 / 13.7   p = 0.7669"""
+basis_census_mentions.csv,141,123405,"run_anchor_integrity.log,83,123405,""[f2_ai_ig]  8 pops  709 blocks  123,405 SNPs"""
+basis_census_mentions.csv,142,124362,"run_chisq_calibration.log,14,124362,""Extracting the core on the FULL panel. It MUST return 124,362 SNPs."""
+basis_census_mentions.csv,143,124362,"run_chisq_calibration.log,15,124362,""core basis: 124,362 SNPs, 709 blocks"""
+basis_census_mentions.csv,144,137384,"run_chisq_calibration.log,38,137384,""Panel has 137,384 SNPs on disk."""
+basis_census_mentions.csv,145,102261,"run_chisq_calibration.log,52,102261,""rep  1  basis 102,261  |  Eneo chi2  10.94 (p 0.0272)  |  Yam chi2   9.53 (p 0.0491)  [3s]"""
+basis_census_mentions.csv,146,102305,"run_chisq_calibration.log,61,102305,""rep  2  basis 102,305  |  Eneo chi2  13.73 (p 0.0082)  |  Yam chi2  12.32 (p 0.0151)  [4s]"""
+basis_census_mentions.csv,147,102327,"run_chisq_calibration.log,70,102327,""rep  3  basis 102,327  |  Eneo chi2  10.08 (p 0.0392)  |  Yam chi2   8.82 (p 0.0657)  [3s]"""
+basis_census_mentions.csv,148,102216,"run_chisq_calibration.log,79,102216,""rep  4  basis 102,216  |  Eneo chi2  12.60 (p 0.0134)  |  Yam chi2  11.05 (p 0.0261)  [3s]"""
+basis_census_mentions.csv,149,102346,"run_chisq_calibration.log,88,102346,""rep  5  basis 102,346  |  Eneo chi2  13.34 (p 0.0097)  |  Yam chi2  11.75 (p 0.0193)  [4s]"""
+basis_census_mentions.csv,150,102385,"run_chisq_calibration.log,97,102385,""rep  6  basis 102,385  |  Eneo chi2  11.02 (p 0.0264)  |  Yam chi2   9.67 (p 0.0464)  [3s]"""
+basis_census_mentions.csv,151,102272,"run_chisq_calibration.log,106,102272,""rep  7  basis 102,272  |  Eneo chi2  11.86 (p 0.0184)  |  Yam chi2   9.88 (p 0.0424)  [3s]"""
+basis_census_mentions.csv,152,102344,"run_chisq_calibration.log,115,102344,""rep  8  basis 102,344  |  Eneo chi2  17.07 (p 0.0019)  |  Yam chi2  15.40 (p 0.0039)  [3s]"""
+basis_census_mentions.csv,153,102381,"run_chisq_calibration.log,124,102381,""rep  9  basis 102,381  |  Eneo chi2  12.12 (p 0.0165)  |  Yam chi2  10.62 (p 0.0312)  [3s]"""
+basis_census_mentions.csv,154,102398,"run_chisq_calibration.log,133,102398,""rep 10  basis 102,398  |  Eneo chi2  14.01 (p 0.0072)  |  Yam chi2  12.49 (p 0.0140)  [3s]"""
+basis_census_mentions.csv,155,102394,"run_chisq_calibration.log,142,102394,""rep 11  basis 102,394  |  Eneo chi2  11.38 (p 0.0226)  |  Yam chi2   9.57 (p 0.0483)  [3s]"""
+basis_census_mentions.csv,156,102431,"run_chisq_calibration.log,151,102431,""rep 12  basis 102,431  |  Eneo chi2  15.45 (p 0.0039)  |  Yam chi2  13.86 (p 0.0077)  [3s]"""
+basis_census_mentions.csv,157,102503,"run_chisq_calibration.log,160,102503,""rep 13  basis 102,503  |  Eneo chi2  14.70 (p 0.0054)  |  Yam chi2  12.49 (p 0.0141)  [4s]"""
+basis_census_mentions.csv,158,102062,"run_chisq_calibration.log,169,102062,""rep 14  basis 102,062  |  Eneo chi2  12.01 (p 0.0173)  |  Yam chi2  10.54 (p 0.0322)  [3s]"""
+basis_census_mentions.csv,159,102289,"run_chisq_calibration.log,178,102289,""rep 15  basis 102,289  |  Eneo chi2  15.04 (p 0.0046)  |  Yam chi2  13.81 (p 0.0079)  [3s]"""
+basis_census_mentions.csv,160,102565,"run_chisq_calibration.log,187,102565,""rep 16  basis 102,565  |  Eneo chi2  17.58 (p 0.0015)  |  Yam chi2  15.99 (p 0.0030)  [3s]"""
+basis_census_mentions.csv,161,102484,"run_chisq_calibration.log,196,102484,""rep 17  basis 102,484  |  Eneo chi2  14.75 (p 0.0053)  |  Yam chi2  12.69 (p 0.0129)  [3s]"""
+basis_census_mentions.csv,162,102185,"run_chisq_calibration.log,205,102185,""rep 18  basis 102,185  |  Eneo chi2  14.71 (p 0.0053)  |  Yam chi2  12.31 (p 0.0152)  [3s]"""
+basis_census_mentions.csv,163,102292,"run_chisq_calibration.log,214,102292,""rep 19  basis 102,292  |  Eneo chi2  12.84 (p 0.0121)  |  Yam chi2  11.41 (p 0.0224)  [3s]"""
+basis_census_mentions.csv,164,102285,"run_chisq_calibration.log,223,102285,""rep 20  basis 102,285  |  Eneo chi2  17.31 (p 0.0017)  |  Yam chi2  16.24 (p 0.0027)  [3s]"""
+basis_census_mentions.csv,165,124362,"run_eastern_term_v2.log,2,124362,""[extract core                  ]  10 pops  709 blocks  124,362 SNPs"""
+basis_census_mentions.csv,166,122862,"run_eastern_term_v2.log,3,122862,""[extract core_Iran_GanjDareh_N_QC]  11 pops  708 blocks  122,862 SNPs"""
+basis_census_mentions.csv,167,124377,"run_eastern_term_v2.log,4,124377,""[extract core_Georgia_Kotias_QC]  11 pops  709 blocks  124,377 SNPs"""
+basis_census_mentions.csv,168,102314,"run_eastern_term_v2.log,5,102314,""[extract core_Turkey_Epipaleolithic]  11 pops  707 blocks  102,314 SNPs"""
+basis_census_mentions.csv,169,124372,"run_eastern_term_v2.log,6,124372,""[extract core_Turkey_PPN_QC    ]  11 pops  709 blocks  124,372 SNPs"""
+basis_census_mentions.csv,170,738041,"run_eastern_term_v2.log,7,38041,""[extract core_Israel_Natufian_QC]  11 pops  695 blocks   38,041 SNPs"""
+basis_census_mentions.csv,170,38041,"run_eastern_term_v2.log,7,38041,""[extract core_Israel_Natufian_QC]  11 pops  695 blocks   38,041 SNPs"""
+basis_census_mentions.csv,171,124362,"run_eastern_term_v2.log,18,124362,""[extract core                  ]  10 pops  709 blocks  124,362 SNPs"""
+basis_census_mentions.csv,172,124362,"run_eastern_term_v2.log,20,124362,""######## PART 2: the term is REQUIRED  [CORE basis: 124,362 SNPs] ########"""
+basis_census_mentions.csv,173,102314,"run_eastern_term_v2.log,42,102314,""[extract core_epi              ]  11 pops  707 blocks  102,314 SNPs"""
+basis_census_mentions.csv,174,101706,"run_eastern_term_v2.log,43,101706,""[extract common                ]  14 pops  707 blocks  101,706 SNPs"""
+basis_census_mentions.csv,175,101706,"run_eastern_term_v2.log,92,101706,""######## PART 4: the term is EASTERN  [COMMON basis: 101,706 SNPs] ########"""
+basis_census_mentions.csv,176,122862,"run_eastern_term_v2.log,142,122862,""[extract core_Iran_GanjDareh_N_QC]  11 pops  708 blocks  122,862 SNPs"""
+basis_census_mentions.csv,177,122862,"run_eastern_term_v2.log,147,122862,""-> Iran_GanjDareh_N_QC     own basis 122,862 SNPs   3rd    20.4 (Z  3.10)   p = 0.3983"""
+basis_census_mentions.csv,178,124377,"run_eastern_term_v2.log,148,124377,""[extract core_Georgia_Kotias_QC]  11 pops  709 blocks  124,377 SNPs"""
+basis_census_mentions.csv,179,124377,"run_eastern_term_v2.log,153,124377,""-> Georgia_Kotias_QC       own basis 124,377 SNPs   3rd    32.6 (Z  2.97)   p = 0.271"""
+basis_census_mentions.csv,180,102314,"run_eastern_term_v2.log,154,102314,""[extract core_Turkey_Epipaleolithic]  11 pops  707 blocks  102,314 SNPs"""
+basis_census_mentions.csv,181,102314,"run_eastern_term_v2.log,159,102314,""-> Turkey_Epipaleolithic   own basis 102,314 SNPs   3rd   -35.4 (Z -1.65)   p = 0.3535"""
+basis_census_mentions.csv,182,124372,"run_eastern_term_v2.log,160,124372,""[extract core_Turkey_PPN_QC    ]  11 pops  709 blocks  124,372 SNPs"""
+basis_census_mentions.csv,183,124372,"run_eastern_term_v2.log,165,124372,""-> Turkey_PPN_QC           own basis 124,372 SNPs   3rd  -173.6 (Z -1.15)   p = 0.07133"""
+basis_census_mentions.csv,184,121107,"run_eastern_term_v2.log,190,121107,""[extract qpwave_iran_kotias    ]   8 pops  708 blocks  121,107 SNPs"""
+basis_census_mentions.csv,185,121107,"run_eastern_term_v2.log,194,121107,""qpWave(Iran, Kotias | six):  chisq = 101.42  dof = 5  p = 2.65e-20   [121,107 SNPs]"""
+basis_census_mentions.csv,186,122891,"run_test3_controls_v3.log,2,122891,""§7 BASIS: 16 pops, 708 blocks, 122891 SNPs (expect 122,891)"""
+basis_census_mentions.csv,186,122891,"run_test3_controls_v3.log,2,122891,""§7 BASIS: 16 pops, 708 blocks, 122891 SNPs (expect 122,891)"""
+basis_census_mentions.csv,187,122891,"run_test3_controls_v3.log,2,122891,""§7 BASIS: 16 pops, 708 blocks, 122891 SNPs (expect 122,891)"""
+basis_census_mentions.csv,187,122891,"run_test3_controls_v3.log,2,122891,""§7 BASIS: 16 pops, 708 blocks, 122891 SNPs (expect 122,891)"""
+basis_census_mentions.csv,188,137384,"run_test3_v2.log,103,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs"
+basis_census_mentions.csv,189,123499,"run_test3_v2.log,105,123499,! 123499 SNPs remain after filtering. 122891 are polymorphic."
+basis_census_mentions.csv,189,122891,"run_test3_v2.log,105,123499,! 123499 SNPs remain after filtering. 122891 are polymorphic."
+basis_census_mentions.csv,190,123499,"run_test3_v2.log,105,122891,! 123499 SNPs remain after filtering. 122891 are polymorphic."
+basis_census_mentions.csv,190,122891,"run_test3_v2.log,105,122891,! 123499 SNPs remain after filtering. 122891 are polymorphic."
+basis_census_mentions.csv,191,123499,"run_test3_v2.log,106,123499,ℹ Allele frequency matrix for 123499 SNPs and 16 populations is 25 MB"
+basis_census_mentions.csv,192,122891,"run_test3_v2.log,111,122891,"">>> §7 BASIS: 16 pops, 708 blocks, 122891 SNPs <<<"""
+basis_census_mentions.csv,193,137384,"run_uniform_3source.log,106,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs"
+basis_census_mentions.csv,194,123510,"run_uniform_3source.log,108,123510,! 123510 SNPs remain after filtering. 122804 are polymorphic."
+basis_census_mentions.csv,194,122804,"run_uniform_3source.log,108,123510,! 123510 SNPs remain after filtering. 122804 are polymorphic."
+basis_census_mentions.csv,195,123510,"run_uniform_3source.log,108,122804,! 123510 SNPs remain after filtering. 122804 are polymorphic."
+basis_census_mentions.csv,195,122804,"run_uniform_3source.log,108,122804,! 123510 SNPs remain after filtering. 122804 are polymorphic."
+basis_census_mentions.csv,196,123510,"run_uniform_3source.log,109,123510,ℹ Allele frequency matrix for 123510 SNPs and 14 populations is 23 MB"
+run_74_replication.log,102,142250,ℹ postBA_west.geno has 400 samples and 142250 SNPs
+run_74_replication.log,104,123871,! 123871 SNPs remain after filtering. 123000 are polymorphic.
+run_74_replication.log,104,123000,! 123871 SNPs remain after filtering. 123000 are polymorphic.
+run_74_replication.log,105,123871,ℹ Allele frequency matrix for 123871 SNPs and 12 populations is 21 MB
+run_aeg_loo.log,106,1233013,ℹ loo_I5733.geno has 221 samples and 1233013 SNPs
+run_aeg_loo.log,108,571419,! 571419 SNPs remain after filtering. 524089 are polymorphic.
+run_aeg_loo.log,108,524089,! 571419 SNPs remain after filtering. 524089 are polymorphic.
+run_aeg_loo.log,109,571419,ℹ Allele frequency matrix for 571419 SNPs and 9 populations is 82 MB
+run_aeg_loo.log,231,1233013,ℹ loo_I5735.geno has 221 samples and 1233013 SNPs
+run_aeg_loo.log,233,696349,! 696349 SNPs remain after filtering. 638680 are polymorphic.
+run_aeg_loo.log,233,638680,! 696349 SNPs remain after filtering. 638680 are polymorphic.
+run_aeg_loo.log,234,696349,ℹ Allele frequency matrix for 696349 SNPs and 9 populations is 100 MB
+run_aeg_loo.log,356,1233013,ℹ loo_ulu117.geno has 221 samples and 1233013 SNPs
+run_aeg_loo.log,358,611041,! 611041 SNPs remain after filtering. 561372 are polymorphic.
+run_aeg_loo.log,358,561372,! 611041 SNPs remain after filtering. 561372 are polymorphic.
+run_aeg_loo.log,359,611041,ℹ Allele frequency matrix for 611041 SNPs and 9 populations is 88 MB
+run_aeg_loo.log,490,1233013,ℹ solo_I5733.geno has 221 samples and 1233013 SNPs
+run_aeg_loo.log,492,564922,! 564922 SNPs remain after filtering. 519296 are polymorphic.
+run_aeg_loo.log,492,519296,! 564922 SNPs remain after filtering. 519296 are polymorphic.
+run_aeg_loo.log,493,564922,ℹ Allele frequency matrix for 564922 SNPs and 9 populations is 81 MB
+run_aeg_loo.log,615,1233013,ℹ solo_I5735.geno has 221 samples and 1233013 SNPs
+run_aeg_loo.log,617,386166,! 386166 SNPs remain after filtering. 355549 are polymorphic.
+run_aeg_loo.log,617,355549,! 386166 SNPs remain after filtering. 355549 are polymorphic.
+run_aeg_loo.log,618,386166,ℹ Allele frequency matrix for 386166 SNPs and 9 populations is 56 MB
+run_aeg_loo.log,740,1233013,ℹ solo_ulu117.geno has 221 samples and 1233013 SNPs
+run_aeg_loo.log,742,307851,! 307851 SNPs remain after filtering. 281089 are polymorphic.
+run_aeg_loo.log,742,281089,! 307851 SNPs remain after filtering. 281089 are polymorphic.
+run_aeg_loo.log,743,307851,ℹ Allele frequency matrix for 307851 SNPs and 9 populations is 44 MB
+run_aegean_vs_anatolian.log,102,142250,ℹ postBA_west.geno has 400 samples and 142250 SNPs
+run_aegean_vs_anatolian.log,104,123825,! 123825 SNPs remain after filtering. 123047 are polymorphic.
+run_aegean_vs_anatolian.log,104,123047,! 123825 SNPs remain after filtering. 123047 are polymorphic.
+run_aegean_vs_anatolian.log,105,123825,ℹ Allele frequency matrix for 123825 SNPs and 13 populations is 22 MB
+run_anchor_calibration.log,2,137384,ℹ wide16_calib.geno has 1062 samples and 137384 SNPs
+run_anchor_calibration.log,144,137384,✔ 137384 SNPs read in total
+run_anchor_calibration.log,145,123506,! 123506 SNPs remain after filtering. 122642 are polymorphic.
+run_anchor_calibration.log,145,122642,! 123506 SNPs remain after filtering. 122642 are polymorphic.
+run_anchor_calibration.log,146,123506,ℹ Allele frequency matrix for 123506 SNPs and 12 populations is 21 MB
+run_anchor_decisive.log,2,137384,ℹ wide16_anchors3.geno has 1062 samples and 137384 SNPs
+run_anchor_decisive.log,144,137384,✔ 137384 SNPs read in total
+run_anchor_decisive.log,145,88619,! 88619 SNPs remain after filtering. 87524 are polymorphic.
+run_anchor_decisive.log,145,87524,! 88619 SNPs remain after filtering. 87524 are polymorphic.
+run_anchor_decisive.log,146,88619,ℹ Allele frequency matrix for 88619 SNPs and 11 populations is 14 MB
+run_anchor_headtohead.log,2,137384,ℹ wide16_anchors.geno has 1062 samples and 137384 SNPs
+run_anchor_headtohead.log,144,137384,✔ 137384 SNPs read in total
+run_anchor_headtohead.log,145,89799,! 89799 SNPs remain after filtering. 88880 are polymorphic.
+run_anchor_headtohead.log,145,88880,! 89799 SNPs remain after filtering. 88880 are polymorphic.
+run_anchor_headtohead.log,146,89799,ℹ Allele frequency matrix for 89799 SNPs and 10 populations is 14 MB
+run_anchor_integrity_basis.txt,3,122704,basis_kumIN: 122704
+run_anchor_integrity_basis.txt,4,122702,basis_kumOUT: 122702
+run_anchor_robust.log,2,137384,ℹ merged_wide16_ba_canon.geno has 1062 samples and 137384 SNPs
+run_anchor_robust.log,144,137384,✔ 137384 SNPs read in total
+run_anchor_robust.log,145,125064,! 125064 SNPs remain after filtering. 123452 are polymorphic.
+run_anchor_robust.log,145,123452,! 125064 SNPs remain after filtering. 123452 are polymorphic.
+run_anchor_robust.log,146,125064,ℹ Allele frequency matrix for 125064 SNPs and 9 populations is 18 MB
+run_ba_cline.log,2,137384,ℹ wide16_ebasplit.geno has 1062 samples and 137384 SNPs
+run_ba_cline.log,144,137384,✔ 137384 SNPs read in total
+run_ba_cline.log,145,88621,! 88621 SNPs remain after filtering. 87612 are polymorphic.
+run_ba_cline.log,145,87612,! 88621 SNPs remain after filtering. 87612 are polymorphic.
+run_ba_cline.log,146,88621,ℹ Allele frequency matrix for 88621 SNPs and 11 populations is 14 MB
+run_ba_kinprune.log,2,137384,ℹ merged_wide16_ba_final.geno has 1062 samples and 137384 SNPs
+run_ba_kinprune.log,144,137384,✔ 137384 SNPs read in total
+run_ba_kinprune.log,145,125076,! 125076 SNPs remain after filtering. 123612 are polymorphic.
+run_ba_kinprune.log,145,123612,! 125076 SNPs remain after filtering. 123612 are polymorphic.
+run_ba_kinprune.log,146,125076,ℹ Allele frequency matrix for 125076 SNPs and 9 populations is 18 MB
+run_ba_kinprune.log,168,25026,ℹ wide16_yamprune25026.geno has 1062 samples and 137384 SNPs
+run_ba_kinprune.log,168,137384,ℹ wide16_yamprune25026.geno has 1062 samples and 137384 SNPs
+run_ba_kinprune.log,310,137384,✔ 137384 SNPs read in total
+run_ba_kinprune.log,311,125076,! 125076 SNPs remain after filtering. 123602 are polymorphic.
+run_ba_kinprune.log,311,123602,! 125076 SNPs remain after filtering. 123602 are polymorphic.
+run_ba_kinprune.log,312,125076,ℹ Allele frequency matrix for 125076 SNPs and 9 populations is 18 MB
+run_ba_kinprune.log,334,137384,ℹ wide16_yamprune0443.geno has 1062 samples and 137384 SNPs
+run_ba_kinprune.log,476,137384,✔ 137384 SNPs read in total
+run_ba_kinprune.log,477,125076,! 125076 SNPs remain after filtering. 123591 are polymorphic.
+run_ba_kinprune.log,477,123591,! 125076 SNPs remain after filtering. 123591 are polymorphic.
+run_ba_kinprune.log,478,125076,ℹ Allele frequency matrix for 125076 SNPs and 9 populations is 18 MB
+run_ba_natufian2.log,2,137384,ℹ merged_wide16_ba_final.geno has 1062 samples and 137384 SNPs
+run_ba_natufian2.log,144,137384,✔ 137384 SNPs read in total
+run_ba_natufian2.log,145,44234,! 44234 SNPs remain after filtering. 43788 are polymorphic.
+run_ba_natufian2.log,145,43788,! 44234 SNPs remain after filtering. 43788 are polymorphic.
+run_ba_natufian2.log,146,44234,ℹ Allele frequency matrix for 44234 SNPs and 10 populations is 7 MB
+run_ba_natufian2.log,184,137384,ℹ wide16_ebasplit.geno has 1062 samples and 137384 SNPs
+run_ba_natufian2.log,326,137384,✔ 137384 SNPs read in total
+run_ba_natufian2.log,327,36166,! 36166 SNPs remain after filtering. 35732 are polymorphic.
+run_ba_natufian2.log,327,35732,! 36166 SNPs remain after filtering. 35732 are polymorphic.
+run_ba_natufian2.log,328,36166,ℹ Allele frequency matrix for 36166 SNPs and 10 populations is 5 MB
+run_bronze_age_canonical.log,2,137384,ℹ merged_wide16_ba_canon.geno has 1062 samples and 137384 SNPs
+run_bronze_age_canonical.log,144,137384,✔ 137384 SNPs read in total
+run_bronze_age_canonical.log,145,125076,! 125076 SNPs remain after filtering. 123602 are polymorphic.
+run_bronze_age_canonical.log,145,123602,! 125076 SNPs remain after filtering. 123602 are polymorphic.
+run_bronze_age_canonical.log,146,125076,ℹ Allele frequency matrix for 125076 SNPs and 9 populations is 18 MB
+run_composition_decomp.log,102,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs
+run_composition_decomp.log,104,123510,! 123510 SNPs remain after filtering. 122804 are polymorphic.
+run_composition_decomp.log,104,122804,! 123510 SNPs remain after filtering. 122804 are polymorphic.
+run_composition_decomp.log,105,123510,ℹ Allele frequency matrix for 123510 SNPs and 14 populations is 23 MB
+run_eastern_term_v2_basis.txt,6,124362,"PART 2 (required)      CORE extract      10 pops  124,362 SNPs"
+run_eastern_term_v2_basis.txt,7,124362,"PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"
+run_eastern_term_v2_basis.txt,7,102314,"PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"
+run_eastern_term_v2_basis.txt,7,101706,"PART 3 (exhibit)       core / +epi / all 124,362 / 102,314 / 101,706 SNPs"
+run_eastern_term_v2_basis.txt,8,101706,"PART 4 (eastern)       COMMON extract    14 pops  101,706 SNPs  [DEGRADED]"
+run_eastern_term_v2_basis.txt,10,121107,"PART 6 (qpWave)        MINIMAL extract   121,107 SNPs"
+run_eastern_term_v2_qpwave.txt,4,121107,qpwave_basis_snps: 121107
+run_f4_negative_control.log,102,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs
+run_f4_negative_control.log,104,124944,! 124944 SNPs remain after filtering. 124198 are polymorphic.
+run_f4_negative_control.log,104,124198,! 124944 SNPs remain after filtering. 124198 are polymorphic.
+run_f4_negative_control.log,105,124944,ℹ Allele frequency matrix for 124944 SNPs and 13 populations is 22 MB
+run_minoan_split_clean.log,141,1233013,ℹ panel_site.geno has 192 samples and 1233013 SNPs
+run_minoan_split_clean.log,143,1038102,! 1038102 SNPs remain after filtering. 950383 are polymorphic.
+run_minoan_split_clean.log,143,950383,! 1038102 SNPs remain after filtering. 950383 are polymorphic.
+run_minoan_split_clean.log,144,1038102,ℹ Allele frequency matrix for 1038102 SNPs and 8 populations is 141 MB
+run_minoan_split_clean.log,279,1233013,ℹ panel_date.geno has 201 samples and 1233013 SNPs
+run_minoan_split_clean.log,281,1042205,! 1042205 SNPs remain after filtering. 955096 are polymorphic.
+run_minoan_split_clean.log,281,955096,! 1042205 SNPs remain after filtering. 955096 are polymorphic.
+run_minoan_split_clean.log,282,1042205,ℹ Allele frequency matrix for 1042205 SNPs and 8 populations is 142 MB
+run_minoan_split_clean.log,316,33000,"its own model never used, which cost ~33,000 SNPs;"
+run_minoan_split_clean.log,322,950383,"site   : REJECTS at p = 3.176e-08 on 950,383 SNPs"
+run_minoan_split_clean.log,323,955096,"date   : REJECTS at p = 4.1621e-10 on 955,096 SNPs"
+run_minoan_split_clean.txt,19,950383,basis: 950383
+run_minoan_split_clean.txt,28,955096,basis: 955096
+run_pvalue_pathology.log,102,142250,ℹ postBA_west.geno has 400 samples and 142250 SNPs
+run_pvalue_pathology.log,104,123825,! 123825 SNPs remain after filtering. 122784 are polymorphic.
+run_pvalue_pathology.log,104,122784,! 123825 SNPs remain after filtering. 122784 are polymorphic.
+run_pvalue_pathology.log,105,123825,ℹ Allele frequency matrix for 123825 SNPs and 12 populations is 21 MB
+run_rotating.log,102,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs
+run_rotating.log,104,123510,! 123510 SNPs remain after filtering. 122892 are polymorphic.
+run_rotating.log,104,122892,! 123510 SNPs remain after filtering. 122892 are polymorphic.
+run_rotating.log,105,123510,ℹ Allele frequency matrix for 123510 SNPs and 15 populations is 24 MB
+run_test3.log,102,142250,ℹ postBA_west.geno has 400 samples and 142250 SNPs
+run_test3.log,104,123814,! 123814 SNPs remain after filtering. 122969 are polymorphic.
+run_test3.log,104,122969,! 123814 SNPs remain after filtering. 122969 are polymorphic.
+run_test3.log,105,123814,ℹ Allele frequency matrix for 123814 SNPs and 13 populations is 22 MB
+run_test3.log,232,124252,"This p is BASIS-DEPENDENT: 0.0146 at 124,252 SNPs; 0.0113 at 122,969."
+run_test3.log,232,122969,"This p is BASIS-DEPENDENT: 0.0146 at 124,252 SNPs; 0.0113 at 122,969."
+run_anchor_integrity.log,17,88776,"[f2_ai_sites]  9 pops  706 blocks  88,776 SNPs"
+run_anchor_integrity.log,35,121732,"[f2_ai_dates]  8 pops  708 blocks  121,732 SNPs"
+run_anchor_integrity.log,46,122365,"[f2_ai_lm3]  9 pops  708 blocks  122,365 SNPs"
+run_anchor_integrity.log,58,122704,"[f2_ai_kumIN]  10 pops  708 blocks  122,704 SNPs"
+run_anchor_integrity.log,59,122702,"[f2_ai_kumOUT]  10 pops  708 blocks  122,702 SNPs"
+run_anchor_integrity.log,65,122704,"Turkey_N_QC (34, Kumtepe IN) [122,704 SNPs]  60.1 / 26.2 / 13.7   p = 0.7749"
+run_anchor_integrity.log,71,122702,"Turkey_N_QC (33, Kumtepe OUT) [122,702 SNPs]  60.0 / 26.2 / 13.7   p = 0.7669"
+run_anchor_integrity.log,83,123405,"[f2_ai_ig]  8 pops  709 blocks  123,405 SNPs"
+run_chisq_calibration.log,14,124362,"Extracting the core on the FULL panel. It MUST return 124,362 SNPs."
+run_chisq_calibration.log,15,124362,"core basis: 124,362 SNPs, 709 blocks"
+run_chisq_calibration.log,38,137384,"Panel has 137,384 SNPs on disk."
+run_chisq_calibration.log,52,102261,"rep  1  basis 102,261  |  Eneo chi2  10.94 (p 0.0272)  |  Yam chi2   9.53 (p 0.0491)  [3s]"
+run_chisq_calibration.log,61,102305,"rep  2  basis 102,305  |  Eneo chi2  13.73 (p 0.0082)  |  Yam chi2  12.32 (p 0.0151)  [4s]"
+run_chisq_calibration.log,70,102327,"rep  3  basis 102,327  |  Eneo chi2  10.08 (p 0.0392)  |  Yam chi2   8.82 (p 0.0657)  [3s]"
+run_chisq_calibration.log,79,102216,"rep  4  basis 102,216  |  Eneo chi2  12.60 (p 0.0134)  |  Yam chi2  11.05 (p 0.0261)  [3s]"
+run_chisq_calibration.log,88,102346,"rep  5  basis 102,346  |  Eneo chi2  13.34 (p 0.0097)  |  Yam chi2  11.75 (p 0.0193)  [4s]"
+run_chisq_calibration.log,97,102385,"rep  6  basis 102,385  |  Eneo chi2  11.02 (p 0.0264)  |  Yam chi2   9.67 (p 0.0464)  [3s]"
+run_chisq_calibration.log,106,102272,"rep  7  basis 102,272  |  Eneo chi2  11.86 (p 0.0184)  |  Yam chi2   9.88 (p 0.0424)  [3s]"
+run_chisq_calibration.log,115,102344,"rep  8  basis 102,344  |  Eneo chi2  17.07 (p 0.0019)  |  Yam chi2  15.40 (p 0.0039)  [3s]"
+run_chisq_calibration.log,124,102381,"rep  9  basis 102,381  |  Eneo chi2  12.12 (p 0.0165)  |  Yam chi2  10.62 (p 0.0312)  [3s]"
+run_chisq_calibration.log,133,102398,"rep 10  basis 102,398  |  Eneo chi2  14.01 (p 0.0072)  |  Yam chi2  12.49 (p 0.0140)  [3s]"
+run_chisq_calibration.log,142,102394,"rep 11  basis 102,394  |  Eneo chi2  11.38 (p 0.0226)  |  Yam chi2   9.57 (p 0.0483)  [3s]"
+run_chisq_calibration.log,151,102431,"rep 12  basis 102,431  |  Eneo chi2  15.45 (p 0.0039)  |  Yam chi2  13.86 (p 0.0077)  [3s]"
+run_chisq_calibration.log,160,102503,"rep 13  basis 102,503  |  Eneo chi2  14.70 (p 0.0054)  |  Yam chi2  12.49 (p 0.0141)  [4s]"
+run_chisq_calibration.log,169,102062,"rep 14  basis 102,062  |  Eneo chi2  12.01 (p 0.0173)  |  Yam chi2  10.54 (p 0.0322)  [3s]"
+run_chisq_calibration.log,178,102289,"rep 15  basis 102,289  |  Eneo chi2  15.04 (p 0.0046)  |  Yam chi2  13.81 (p 0.0079)  [3s]"
+run_chisq_calibration.log,187,102565,"rep 16  basis 102,565  |  Eneo chi2  17.58 (p 0.0015)  |  Yam chi2  15.99 (p 0.0030)  [3s]"
+run_chisq_calibration.log,196,102484,"rep 17  basis 102,484  |  Eneo chi2  14.75 (p 0.0053)  |  Yam chi2  12.69 (p 0.0129)  [3s]"
+run_chisq_calibration.log,205,102185,"rep 18  basis 102,185  |  Eneo chi2  14.71 (p 0.0053)  |  Yam chi2  12.31 (p 0.0152)  [3s]"
+run_chisq_calibration.log,214,102292,"rep 19  basis 102,292  |  Eneo chi2  12.84 (p 0.0121)  |  Yam chi2  11.41 (p 0.0224)  [3s]"
+run_chisq_calibration.log,223,102285,"rep 20  basis 102,285  |  Eneo chi2  17.31 (p 0.0017)  |  Yam chi2  16.24 (p 0.0027)  [3s]"
+run_eastern_term_v2.log,2,124362,"[extract core                  ]  10 pops  709 blocks  124,362 SNPs"
+run_eastern_term_v2.log,3,122862,"[extract core_Iran_GanjDareh_N_QC]  11 pops  708 blocks  122,862 SNPs"
+run_eastern_term_v2.log,4,124377,"[extract core_Georgia_Kotias_QC]  11 pops  709 blocks  124,377 SNPs"
+run_eastern_term_v2.log,5,102314,"[extract core_Turkey_Epipaleolithic]  11 pops  707 blocks  102,314 SNPs"
+run_eastern_term_v2.log,6,124372,"[extract core_Turkey_PPN_QC    ]  11 pops  709 blocks  124,372 SNPs"
+run_eastern_term_v2.log,7,38041,"[extract core_Israel_Natufian_QC]  11 pops  695 blocks   38,041 SNPs"
+run_eastern_term_v2.log,18,124362,"[extract core                  ]  10 pops  709 blocks  124,362 SNPs"
+run_eastern_term_v2.log,20,124362,"######## PART 2: the term is REQUIRED  [CORE basis: 124,362 SNPs] ########"
+run_eastern_term_v2.log,42,102314,"[extract core_epi              ]  11 pops  707 blocks  102,314 SNPs"
+run_eastern_term_v2.log,43,101706,"[extract common                ]  14 pops  707 blocks  101,706 SNPs"
+run_eastern_term_v2.log,92,101706,"######## PART 4: the term is EASTERN  [COMMON basis: 101,706 SNPs] ########"
+run_eastern_term_v2.log,142,122862,"[extract core_Iran_GanjDareh_N_QC]  11 pops  708 blocks  122,862 SNPs"
+run_eastern_term_v2.log,147,122862,"-> Iran_GanjDareh_N_QC     own basis 122,862 SNPs   3rd    20.4 (Z  3.10)   p = 0.3983"
+run_eastern_term_v2.log,148,124377,"[extract core_Georgia_Kotias_QC]  11 pops  709 blocks  124,377 SNPs"
+run_eastern_term_v2.log,153,124377,"-> Georgia_Kotias_QC       own basis 124,377 SNPs   3rd    32.6 (Z  2.97)   p = 0.271"
+run_eastern_term_v2.log,154,102314,"[extract core_Turkey_Epipaleolithic]  11 pops  707 blocks  102,314 SNPs"
+run_eastern_term_v2.log,159,102314,"-> Turkey_Epipaleolithic   own basis 102,314 SNPs   3rd   -35.4 (Z -1.65)   p = 0.3535"
+run_eastern_term_v2.log,160,124372,"[extract core_Turkey_PPN_QC    ]  11 pops  709 blocks  124,372 SNPs"
+run_eastern_term_v2.log,165,124372,"-> Turkey_PPN_QC           own basis 124,372 SNPs   3rd  -173.6 (Z -1.15)   p = 0.07133"
+run_eastern_term_v2.log,190,121107,"[extract qpwave_iran_kotias    ]   8 pops  708 blocks  121,107 SNPs"
+run_eastern_term_v2.log,194,121107,"qpWave(Iran, Kotias | six):  chisq = 101.42  dof = 5  p = 2.65e-20   [121,107 SNPs]"
+run_test3_controls_v3.log,2,122891,"§7 BASIS: 16 pops, 708 blocks, 122891 SNPs (expect 122,891)"
+run_test3_controls_v3.log,2,122891,"§7 BASIS: 16 pops, 708 blocks, 122891 SNPs (expect 122,891)"
+run_test3_v2.log,103,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs
+run_test3_v2.log,105,123499,! 123499 SNPs remain after filtering. 122891 are polymorphic.
+run_test3_v2.log,105,122891,! 123499 SNPs remain after filtering. 122891 are polymorphic.
+run_test3_v2.log,106,123499,ℹ Allele frequency matrix for 123499 SNPs and 16 populations is 25 MB
+run_test3_v2.log,111,122891,">>> §7 BASIS: 16 pops, 708 blocks, 122891 SNPs <<<"
+run_uniform_3source.log,106,137384,ℹ postBA_arb.geno has 443 samples and 137384 SNPs
+run_uniform_3source.log,108,123510,! 123510 SNPs remain after filtering. 122804 are polymorphic.
+run_uniform_3source.log,108,122804,! 123510 SNPs remain after filtering. 122804 are polymorphic.
+run_uniform_3source.log,109,123510,ℹ Allele frequency matrix for 123510 SNPs and 14 populations is 23 MB

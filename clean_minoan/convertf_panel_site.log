@@ -1,0 +1,19 @@
+parameter file: clean_minoan/par.panel_site
+genotypename: /Users/ell_thales/qpadm_project2/v66.p1_1240K.aadr.patch.PUB.geno
+snpname: /Users/ell_thales/qpadm_project2/v66.p1_1240K.aadr.patch.PUB.snp
+indivname: clean_minoan/site.ind
+outputformat: EIGENSTRAT
+genotypeoutname: clean_minoan/panel_site.geno
+snpoutname: clean_minoan/panel_site.snp
+indivoutname: clean_minoan/panel_site.ind
+poplistname: clean_minoan/poplist_site.txt
+hashcheck: NO
+## /Users/ell_thales/miniconda3/pkgs/admixtools-8.0.2-ha8dfbab_0/bin/convertf version: 8600
+end of inpackt;  records read: 192
+before compress: snps: 1233013 indivs: 23089
+after compress: snps: 1233013 indivs: 192
+numvalidind:    192  maxmiss: 192001
+callng outfiles
+eigenstrat output
+numsnps output: 1233013
+##end of convertf:      312.385 seconds cpu        0.000 Mbytes in use

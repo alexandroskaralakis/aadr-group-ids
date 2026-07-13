@@ -1,0 +1,36 @@
+script: run_minoan_split_clean
+date: 2026-07-13 13:50:26
+admixtools: 2.0.10
+purpose: Paper A 2.5 rebuilt on ancients-only AADR basis; no target genome
+panels: clean_minoan/panel_site, clean_minoan/panel_date (EIGENSTRAT, from convertf)
+extract: maxmiss=0, fresh outdir per test, no cache reuse
+
+right_set:
+  - Mbuti
+  - Italy_Sicily_Epigravettian
+  - Russia_Kostenki_UP
+  - Papuan
+  - Serbia_IronGates_Mesolithic
+  - Morocco_Iberomaurusian
+
+site_test:
+  left: Crete_Lasithi_EMBA | Crete_Chania_LBA
+  populations_in_extract: Crete_Lasithi_EMBA, Crete_Chania_LBA, Mbuti, Italy_Sicily_Epigravettian, Russia_Kostenki_UP, Papuan, Serbia_IronGates_Mesolithic, Morocco_Iberomaurusian
+  basis: 950383
+  chisq: 43.3242524836797
+  dof: 5
+  rank0_p: 3.17603690243766e-08
+  f2dir: clean_minoan/f2_site_20260713_134954
+
+date_test:
+  left: Crete_EARLY | Crete_LATE
+  populations_in_extract: Crete_EARLY, Crete_LATE, Mbuti, Italy_Sicily_Epigravettian, Russia_Kostenki_UP, Papuan, Serbia_IronGates_Mesolithic, Morocco_Iberomaurusian
+  basis: 955096
+  chisq: 52.5491834445145
+  dof: 5
+  rank0_p: 4.16205043089142e-10
+  f2dir: clean_minoan/f2_date_20260713_134954
+
+NOTHING here is comparable to 88,776 / 121,732 / 122,704 / 122,702.
+Those bases were set by an extract containing the target genome.
+This one is not. The two are separate bases and separate tables.

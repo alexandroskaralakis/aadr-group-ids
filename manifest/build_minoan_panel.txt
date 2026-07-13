@@ -1,0 +1,38 @@
+script: build_minoan_panel (v2)
+date: Mon Jul 13 13:46:05 EEST 2026
+purpose: Paper A 2.5 rebuilt ancients-only; sub-pools from AADR Group IDs
+aadr_prefix: /Users/ell_thales/qpadm_project2/v66.p1_1240K.aadr.patch.PUB
+anno: /Users/ell_thales/qpadm_project2/v66.p1_1240K.aadr.PUB.anno
+anno_cols: id=1 date=11 group=15 locality=16 (header-derived; asserted 1/11/15/16)
+pool_source: /Users/ell_thales/qpadm_project2/postBA_arb.ind (58 individual IDs only; no genotypes taken)
+
+site_arm:
+  Crete_Lasithi_EMBA = AADR Greece_Crete_HgCharalambos_EMBA (26)
+  Crete_Chania_LBA   = AADR Greece_Crete_LBA minus kro008.SG kro009.SG (23)
+  exclusion_reason: Greece_Crete_LBA is a TWO-LOCALITY BIN (Chania + Heraklion,
+    ~140 km apart). kro008.SG/kro009.SG are Heraklion, Skourtanioti/Stockhammer 2023.
+    Excluded so that a rejection means Lasithi != Chania and nothing else.
+  audit_note: this bin trips '>=2 localities' but NOT the audit's '>=3 localities'
+    flag, so run_aadr_audit.R scores Greece_Crete_LBA ZERO. Second independent
+    instance of the paper's central limitation (see 2.4).
+
+date_arm:
+  threshold_BP: 3600 (fixed before any f-statistic)
+  all 58 individuals; no exclusions
+
+right_set:
+  - Mbuti
+  - Italy_Sicily_Epigravettian
+  - Russia_Kostenki_UP
+  - Papuan
+  - Serbia_IronGates_Mesolithic
+  - Morocco_Iberomaurusian
+
+panel_site_snps: 1233013
+panel_date_snps: 1233013
+NOTE: those are CONVERTF panel sizes, NOT the maxmiss=0 basis.
+  The basis is set at extract_f2. See run_minoan_split_clean.R.
+
+NOTHING here is comparable to 88,776 / 121,732 / 122,704 / 122,702.
+  Those bases came from a panel containing the target genome, and 88,776
+  additionally paid for Minoan_OTHER, a population its model never used.

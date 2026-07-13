@@ -1,3 +1,30 @@
+> # ⚠ RETRACTED — superseded by v2.0
+>
+> **This version is retained for the record. Do not cite it. Three of its central
+> claims are wrong, and they are named here rather than quietly removed.**
+>
+> **1. The "fold" is not a stable statistic.** This paper argued that the degradation
+> fold, rather than the p-value, should be reported *because the fold was stable across
+> SNP bases*. Measured across eleven genuinely different bases, **the fold spans 0.8× to
+> 80.6× while the p-value spans 8×** — the fold is *twelve times less stable* than the
+> quantity it was meant to replace. The three bases cited here as evidence of stability
+> were 122,891 / 124,362 / ~123,000 SNPs: **three near-copies of one basis.**
+>
+> **2. The Test 3 exhibit was built on two bins and a circular relationship.**
+> `Greece_Mycenaean_POOL` and `Greece_Minoan_POOL` each fail qpWave rank-0
+> (p = 6.3 × 10⁻⁵ and 3.2 × 10⁻⁸). On coherent populations the relationship **rejects at
+> every SNP basis from 108,442 to 970,005.** The apparent fit came from post-conquest
+> Cretan individuals in the "Minoan" source who already carried steppe ancestry. **The
+> 86.9 / 13.1 agreement with the literature was circularity, not validation.**
+>
+> **3. §3's premise is false.** χ² does not scale with SNP count. Under **random** SNP
+> loss it **rises** (1.36× at 17.7% loss; 20 of 20 replicates). The §3 exhibit survives —
+> but for the opposite reason to the one given here.
+>
+> **Superseded by `paper_B_v2_0.md`, which is rebuilt entirely from public AADR data.**
+>
+> ---
+>
 # Two diagnostics for qpAdm in real data
 
 ### A source-descendant test for reference-into-source gene flow, and a χ² signature of non-random SNP loss

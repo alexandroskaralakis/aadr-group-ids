@@ -1,0 +1,182 @@
+==========================================================
+ discover_test3_pops.sh   Mon Jul 13 15:10:13 EEST 2026
+==========================================================
+
+### What population labels actually exist in postBA_arb.ind?
+  Ethiopia_Mota                      1
+  Georgia_Kotias_QC                  2
+  Greece_Minoan_POOL                 58
+  Greece_Mycenaean_POOL              26
+  Han                                43
+  Iran_GanjDareh_N_QC                8
+  Israel_Natufian_QC                 5
+  Italy_Sicily_Epigravettian         12
+  Mbuti                              11
+  Morocco_Iberomaurusian             7
+  MyDNA                              1
+  Papuan                             17
+  Russia_Eneolithic_Steppe_QC        46
+  Russia_Kostenki_UP                 2
+  Russia_Yamnaya_QC                  28
+  Serbia_IronGates_Mesolithic        38
+  Turkey_BA_QC                       9
+  Turkey_Byz_postSeljuk_QC           12
+  Turkey_Byz_preSeljuk_QC            16
+  Turkey_EBA_WEST                    12
+  Turkey_Epipaleolithic              1
+  Turkey_MBA_QC                      6
+  Turkey_MLBA_QC                     28
+  Turkey_N_QC                        34
+  Turkey_PPN_QC                      15
+  Turkey_Roman_QC                    5
+
+==========================================================
+ Greece_Mycenaean_POOL   (n = 26 in postBA_arb.ind)
+==========================================================
+
+  --- AADR Group IDs carried by these individuals ---
+    Greece_LBA                                 8
+    Greece_Peloponnese_LBA                     6
+    Greece_PalaceofNestor_BA                   6
+    Greece_Argolid_LBA                         3
+    Greece_Achaea_LBA                          3
+    >>> 5 distinct AADR Group ID(s)
+
+  --- Locality x date range ---
+      6    3200 -   3425 BP   "Aidonia (Peloponnese, Corinthia, Phlious Valley)"
+      6    3075 -   3425 BP   "Palace of Nestor (Peloponnese, Messenia, Pylos)"
+      4    3261 -   3523 BP   Lazarides (Aegina)
+      4    3125 -   3125 BP   "Koukounaries (Cyclades, Paros)"
+      3    3441 -   3478 BP   "Mygdalia (Achaea, Patras Region)"
+      3    3261 -   3325 BP   Tiryns (Argolid)
+
+  --- overall date span ---
+    3075 - 3523 BP   (span 448 years)
+
+==========================================================
+ Greece_Minoan_POOL   (n = 58 in postBA_arb.ind)
+==========================================================
+
+  --- AADR Group IDs carried by these individuals ---
+    Greece_Crete_HgCharalambos_EMBA            26
+    Greece_Crete_LBA                           25
+    Greece_Crete_MoniOdigitria_BA              4
+    Greece_Crete_Zakros_Karaviadaina_BA        1
+    Greece_Crete_NecropolisofArmenoi_BA        1
+    Greece_Crete_Aposelemis_LBA                1
+    >>> 6 distinct AADR Group ID(s)
+
+  --- Locality x date range ---
+     26    3933 -   4177 BP   "Lasithi (Crete, Ierapetra, Schinokapsala, Vornospilia)"
+     23    3175 -   3300 BP   Chania (Crete)
+      4    3900 -   3900 BP   "Moni Odigitria (Crete, Heraklion)"
+      3    3135 -   3525 BP   Heraklion (Crete)
+      1    3768 -   3768 BP   "Karaviadaina (Crete, Zakros)"
+      1    3300 -   3300 BP   "Necropolis of Armenoi (Crete, NW coast)"
+
+  --- overall date span ---
+    3135 - 4177 BP   (span 1042 years)
+
+==========================================================
+ Russia_Yamnaya_QC   (n = 28 in postBA_arb.ind)
+==========================================================
+
+  --- AADR Group IDs carried by these individuals ---
+    Russia_Samara_EBA_Yamnaya                  28
+    >>> 1 distinct AADR Group ID(s)
+
+  --- Locality x date range ---
+      5    4850 -   5084 BP   "Lopatino (Samara Oblast, Krasnoyarsky District, Lopatino Village)"
+      4    4693 -   5051 BP   "Grachevka-2 (Samara Oblast, Krasnoyarsky District, Grachevka Village)"
+      3    4518 -   5021 BP   "Nizhnaya-Orlyanka-1 (Samara Oblast, Sergiyevsky District, Nizhnaya-Orlyanka Village)"
+      2    4932 -   4943 BP   "Leschevo (Samara Oblast, Neftegorsky District)"
+      2    4915 -   5164 BP   "Lebyazhinka (Samara Oblast, Krasnoyarsky District, Lebyazhinka Village)"
+      2    4848 -   5003 BP   "Kutuluk (Samara Oblast, Kinel District)"
+      2    4653 -   4844 BP   "Ekaterinovskiy-Mys (Samara Oblast, Bezenchuksky District, Ekaterinovka Village)"
+      1    5165 -   5165 BP   "Utyovka-11 (Samara Oblast, Neftegorsky District, Utyovka Village)"
+      1    5153 -   5153 BP   "Podlesny-1 (Samara Oblast, Kinel District)"
+      1    5047 -   5047 BP   "Utyovka-5 (Samara Oblast, Neftegorsky District, Utyovka Village)"
+      1    4915 -   4915 BP   "Orlovka (Samara Oblast, Sergiyevsky District)"
+      1    4844 -   4844 BP   "Poplavskoe-1 (Samara Oblast, Kinel District)"
+      1    4785 -   4785 BP   "Luzkhi-1 (Samara Oblast, Krasnoyarsky District, Luzhki Village)"
+      1    4775 -   4775 BP   "Grachevka-1 (Samara Oblast, Krasnoyarsky District, Grachevka Village)"
+      1    4602 -   4602 BP   "Krasnosamarskoe-4 (Samara Oblast, Kinel District, Krasnosamarskoe Village)"
+
+  --- overall date span ---
+    4518 - 5165 BP   (span 647 years)
+
+==========================================================
+ Georgia_Kotias_QC   (n = 2 in postBA_arb.ind)
+==========================================================
+
+  --- AADR Group IDs carried by these individuals ---
+    Georgia_KotiasKlde_Mesolithic              2
+    >>> 1 distinct AADR Group ID(s)
+
+  --- Locality x date range ---
+      2    9677 -   9678 BP   "Kotias Klde (Imereti, Raion Chiatura, Chiatura)"
+
+  --- overall date span ---
+    9677 - 9678 BP   (span 1 years)
+
+==========================================================
+ Turkey_N_QC   (n = 34 in postBA_arb.ind)
+==========================================================
+
+  --- AADR Group IDs carried by these individuals ---
+    Turkey_N                                   34
+    >>> 1 distinct AADR Group ID(s)
+
+  --- Locality x date range ---
+     21    7928 -   8316 BP   "Barcın-Höyük (Bursa, Yenişehir)"
+      5    7870 -   7950 BP   "Menteşe (Marmara, Bursa, Yenişehir)"
+      4    8099 -   8487 BP   "Tepecik-Ciftlik (Niğde, Çiftlik)"
+      2    8500 -   8559 BP   "Çatalhöyük (Konya, Çumra)"
+      1    7925 -   7925 BP   "Ilıpınar (Bursa, Orhangazi)"
+      1    5615 -   5615 BP   "Kumtepe (Çanakkale, Çanakkale merkez)"
+
+  --- overall date span ---
+    5615 - 8559 BP   (span 2944 years)
+
+==========================================================
+ Iran_GanjDareh_N_QC   (n = 8 in postBA_arb.ind)
+==========================================================
+
+  --- AADR Group IDs carried by these individuals ---
+    Iran_GanjDareh_N                           8
+    >>> 1 distinct AADR Group ID(s)
+
+  --- Locality x date range ---
+      8    9800 -  10162 BP   "Ganj Dareh (Hamadan Province, Tuyserkan)"
+
+  --- overall date span ---
+    9800 - 10162 BP   (span 362 years)
+
+==========================================================
+ Russia_Eneolithic_Steppe_QC   (n = 46 in postBA_arb.ind)
+==========================================================
+
+  --- AADR Group IDs carried by these individuals ---
+    Russia_Saratov_Eneolithic_Khvalynsk        26
+    Russia_Samara_Eneolithic_Ekaterinovka      19
+    Russia_Samara_Eneolithic_Ekaterinovka-o    1
+    >>> 3 distinct AADR Group ID(s)
+
+  --- Locality x date range ---
+     20    7056 -   7363 BP   "Ekaterinovskiy-Mys (Samara Oblast, Bezenchuksky District, Ekaterinovka Village)"
+     20    6375 -   7199 BP   "Khvalynsk-2 (Saratov Oblast, Khvalynsky District, Khvalynsk Town)"
+      5    6375 -   6831 BP   "Khvalynsk-1 (Saratov Oblast, Khvalynsky District, Khvalynsk Town)"
+      1    6697 -   6697 BP   "Khvalynsk (Saratov) (Saratov Oblast, Saratov Oblast, Saratovo)"
+
+  --- overall date span ---
+    6375 - 7363 BP   (span 988 years)
+
+==========================================================
+ THE QUESTION THIS ANSWERS
+==========================================================
+ If Greece_Mycenaean_POOL carries >1 AADR Group ID, then Paper B's
+ positive control has a bin on BOTH sides -- source and descendant --
+ and the 86.9/13.1 recovery it cites as proof of truth was computed
+ between two populations that are not populations.
+
+ Nothing is concluded here. Read the counts.

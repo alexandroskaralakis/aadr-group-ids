@@ -1,0 +1,38 @@
+==========================================================
+ build_paperB_wide.sh   Mon Jul 13 15:54:59 EEST 2026
+==========================================================
+
+[1] populations:
+    Crete_Chania_LBA         23
+    Crete_Lasithi_EMBA       26
+    Iran_GanjDareh           17
+    Khvalynsk_Eneo           47
+    Kotias                   2
+    Myc_PELOPONNESE          18
+    Turkey_N_BIN             68
+    Yamnaya_Samara           46
+    QC-restricted counts match. good.
+
+[2] poplist (14 pops)
+
+[3] convertf (10-20 min)...
+    individuals: 390   panel SNPs: 1233013
+      Crete_Chania_LBA           23
+      Crete_Lasithi_EMBA         26
+      Iran_GanjDareh             17
+      Italy_Sicily_Epigravettian 12
+      Khvalynsk_Eneo             47
+      Kotias                     2
+      Mbuti                      15
+      Morocco_Iberomaurusian     8
+      Myc_PELOPONNESE            18
+      Papuan                     32
+      Russia_Kostenki_UP         3
+      Serbia_IronGates_Mesolithic 73
+      Turkey_N_BIN               68
+      Yamnaya_Samara             46
+
+[4] target-genome check (by population label):
+    CLEAN — MyDNA absent.
+
+ DONE. Next: Rscript run_myc_power.R

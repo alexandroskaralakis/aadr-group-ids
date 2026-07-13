@@ -1,0 +1,17 @@
+script: run_fold_stability
+date: 2026-07-13 17:12:19
+purpose: is the Test 3 fold a property of the data, or of the SNP basis?
+model: Germany_Esperstedt_CordedWare <- Russia_Samara_EBA_Yamnaya + Czechia_N_GlobularAmphora
+candidate reference: Georgia_KotiasKlde_Mesolithic
+
+fold range: 0.8x - 80.6x
+p_six range: 0.0422 - 0.331
+bases tested: 898,057, 239,106, 451,239, 451,387, 451,307, 225,737, 225,596, 225,409, 108,341, 108,174, 108,219
+
+Subsamples are random draws from the panel SNP set, three replicates per
+  size, seed 20260713. The transversion-only row is an independent kind of
+  thinning (it removes damage-prone transitions, not a random subset).
+
+Every row is a SEPARATE BASIS. The rows are compared to each other ONLY
+  through the fold, which is the quantity this script exists to test.
+NOTHING here is comparable to 122,891 / 124,362 or any earlier basis.

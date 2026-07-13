@@ -1,0 +1,40 @@
+==========================================================
+ build_controls_panel.sh   Mon Jul 13 16:52:18 EEST 2026
+==========================================================
+[1] Group ID column = 15 (verified)
+
+[2] population counts (from AADR, taken WHOLE — no private QC filter):
+    Germany_Esperstedt_CordedWare              n=13   (expected 13)   ok
+    Russia_Khakassia_Afanasievo                n=27   (expected 27)   ok
+    Slovakia_N_LBK                             n=56   (expected 56)   ok
+    Germany_HalberstadtSonntagsfeld_EN_LBK     n=26   (expected 26)   ok
+    Russia_Samara_EBA_Yamnaya                  n=46   (expected 46)   ok
+    Czechia_N_GlobularAmphora                  n=6    (expected 6)   ok
+    Turkey_N                                   n=68   (expected 68)   ok
+    Georgia_KotiasKlde_Mesolithic              n=2    (expected 2)   ok
+    All counts match discovery. No unscripted QC filter is applied here:
+    these are AADR's groups, whole. That makes them PUBLICLY reproducible.
+
+[3] poplist: 14 populations
+
+[4] convertf (10-20 min)...
+    individuals: 387   panel SNPs: 1233013
+      Czechia_N_GlobularAmphora                  6
+      Georgia_KotiasKlde_Mesolithic              2
+      Germany_Esperstedt_CordedWare              13
+      Germany_HalberstadtSonntagsfeld_EN_LBK     26
+      Italy_Sicily_Epigravettian                 12
+      Mbuti                                      15
+      Morocco_Iberomaurusian                     8
+      Papuan                                     32
+      Russia_Khakassia_Afanasievo                27
+      Russia_Kostenki_UP                         3
+      Russia_Samara_EBA_Yamnaya                  46
+      Serbia_IronGates_Mesolithic                73
+      Slovakia_N_LBK                             56
+      Turkey_N                                   68
+
+[5] target-genome check (by population label, not substring):
+    CLEAN — MyDNA absent.
+
+ DONE. Next: Rscript run_test3_controls.R

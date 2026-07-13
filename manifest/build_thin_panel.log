@@ -1,0 +1,74 @@
+==========================================================
+ build_thin_panel.sh   Mon Jul 13 17:50:52 EEST 2026
+==========================================================
+
+[1] Group ID = col 15;  1240k SNP coverage = col 27
+    SNPs hit on autosomal targets (Computed using easystats on 1240k snpse
+
+[2] The thinnest small groups in AADR (n<=3, by median 1240k coverage):
+    These are DISCOVERED from the coverage column, not guessed from names.
+       534  n=1   Sudan_MiddleHolocene-1
+       679  n=1   Syria_EMBA_IA
+       817  n=2   Tanzania_LSA
+      1839  n=3   Panama_Colonial-oAfrica
+      1954  n=1   India_Lippa_Classical
+      2759  n=1   Belize_11700BP_Archaic_Maya
+      2963  n=1   Spain_Cuermeja_LateMiddleAges
+      3216  n=1   Albania_Dukat_BA_IA
+      3701  n=1   Spain_LosPasitos_MiddleAges
+      3748  n=1   China_BeiQian_Longshan
+      3797  n=1   England_Suffolk_EarlyMedieval_AngloSaxon
+      3954  n=1   Spain_Angostura_LateMiddleAges
+      4128  n=1   Ukraine_Odessa_EBA_Catacomb
+      4131  n=1   Spain_ElHormiguero_LateAntiquity
+      4149  n=1   India_Kanam_MiddleAges
+      4196  n=1   Italy_Sicily_MBA-oSteppe
+      4267  n=3   Sweden_N_possible
+      4562  n=1   Spain_Guayadeque_EarlyMiddleAges
+      4712  n=1   Germany_Ofnet_Mesolithic
+      4776  n=2   Netherlands_EMN_Swifterbant
+      4823  n=1   China_Xinjiang_Sandaohaizi_IA
+      4869  n=1   Thailand_LN_BA
+      4934  n=1   Russia_MLBA
+      5020  n=1   Canada_ASO_600BP-1
+      5033  n=1   Portugal_PostMedieval
+
+    (left column = mean SNPs hit on the 1240K panel; the whole panel is 1.23M)
+
+[3] thin populations selected for the exhibit:
+    Turkey_Epipaleolithic          n=1    mean 1240k coverage = 891783
+    Israel_Natufian                n=17   mean 1240k coverage = 107584
+
+[4] poplist (12 pops):
+    Germany_Esperstedt_CordedWare
+    Russia_Samara_EBA_Yamnaya
+    Czechia_N_GlobularAmphora
+    Georgia_KotiasKlde_Mesolithic
+    Mbuti
+    Italy_Sicily_Epigravettian
+    Russia_Kostenki_UP
+    Papuan
+    Serbia_IronGates_Mesolithic
+    Morocco_Iberomaurusian
+    Turkey_Epipaleolithic
+    Israel_Natufian
+
+[5] convertf (10-20 min)...
+    individuals: 228   panel SNPs: 1233013
+      Czechia_N_GlobularAmphora          6
+      Georgia_KotiasKlde_Mesolithic      2
+      Germany_Esperstedt_CordedWare      13
+      Israel_Natufian                    17
+      Italy_Sicily_Epigravettian         12
+      Mbuti                              15
+      Morocco_Iberomaurusian             8
+      Papuan                             32
+      Russia_Kostenki_UP                 3
+      Russia_Samara_EBA_Yamnaya          46
+      Serbia_IronGates_Mesolithic        73
+      Turkey_Epipaleolithic              1
+
+[6] target-genome check (by population label):
+    CLEAN — MyDNA absent.
+
+ DONE. Next: Rscript run_chisq_exhibit.R

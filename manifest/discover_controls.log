@@ -1,0 +1,118 @@
+==========================================================
+ discover_controls.sh   Mon Jul 13 16:46:57 EEST 2026
+==========================================================
+
+==========================================================
+ AFANASIEVO  -- near-clade descendant of Yamnaya (screens STEPPE)   (group IDs matching: ^Russia_Afanasievo|^Mongolia_.*Afanasievo|Afanasievo)
+==========================================================
+  Russia_Khakassia_Afanasievo                  n=27   sites=2   plat=3    4450- 4850 BP (span 400)
+  Russia_Altai_Afanasievo                      n=20   sites=7   plat=3    4650- 5082 BP (span 432)
+  Russia_Altai_Eneolithic_Afanasievo           n=6    sites=6   plat=1    4950- 5000 BP (span 50)
+  Russia_AltaiKrai_Afanasievo                  n=5    sites=2   plat=1    4650- 4850 BP (span 200)
+  China_Xinjiang_Ayituohan_BA_Afanasievo       n=4    sites=1   plat=2    4546- 4700 BP (span 154)
+  Russia_Khakassia_Eneolithic_Afanasievo       n=3    sites=2   plat=1    4750- 4750 BP (span 0)
+  Russia_Khakassia_EBA_Afanasievo-oOkunevo     n=3    sites=1   plat=1    4685- 4685 BP (span 0)
+  Russia_Khakassia_Afanasievo_Khakassia        n=3    sites=1   plat=1    4661- 4661 BP (span 0)
+  Russia_GornoAltaisk_Afanasievo               n=3    sites=1   plat=1    4897- 4897 BP (span 0)
+  Russia_Altai_EIA_Afanasievo                  n=2    sites=1   plat=2    5061- 5061 BP (span 0)
+  Russia_Afanasievo                            n=2    sites=1   plat=1    4531- 4757 BP (span 226)
+  Russia_KrasnoyarskKrai_Afanasievo            n=1    sites=1   plat=1    4850- 4850 BP (span 0)
+  Russia_Khakassia_EBA_Afanasievo              n=1    sites=1   plat=1    4800- 4800 BP (span 0)
+  Russia_Khakassia_Afanasievo_Yenisei          n=1    sites=1   plat=1    4937- 4937 BP (span 0)
+
+==========================================================
+ CORDED WARE -- Yamnaya + CE farmer, ~75/25 (screens STEPPE)   (group IDs matching: CordedWare|Corded_Ware)
+==========================================================
+  Czechia_EBA_CordedWare                       n=48   sites=15  plat=2    4200- 4906 BP (span 706)
+  Poland_CordedWare                            n=16   sites=10  plat=1    4237- 4702 BP (span 465)
+  Germany_Esperstedt_CordedWare                n=13   sites=1   plat=2    4225- 4472 BP (span 247)
+  Netherlands_LNA_CordedWare_Vlaardingen       n=4    sites=2   plat=1    4471- 4637 BP (span 166)
+  Germany_Althausen_CordedWare                 n=4    sites=1   plat=1    4425- 4463 BP (span 38)
+  Poland_CordedWare-3                          n=3    sites=2   plat=1    4375- 4675 BP (span 300)
+  Russia_Ivanovo_MLBA_CordedWare_Fatyanovo     n=2    sites=1   plat=1    4127- 4494 BP (span 367)
+  Poland_CordedWare-1                          n=2    sites=1   plat=1    4375- 4375 BP (span 0)
+  Latvia_LN_CordedWare                         n=2    sites=1   plat=2    4842- 4842 BP (span 0)
+  Germany_Tiefbrunn_CordedWare-1               n=2    sites=1   plat=1    4627- 4671 BP (span 44)
+  Czechia_EBA_CordedWare-2                     n=2    sites=2   plat=1    4289- 4585 BP (span 296)
+  Ukraine_MBA_CordedWare                       n=1    sites=1   plat=1    3823- 3823 BP (span 0)
+  Russia_EMBA_FatyanovoBalanovo_CordedWare_Volga n=1    sites=1   plat=1    4624- 4624 BP (span 0)
+  Poland_CordedWare_ProtoUnetice               n=1    sites=1   plat=1    4125- 4125 BP (span 0)
+
+==========================================================
+ GLOBULAR AMPHORA -- the farmer term in the Corded Ware model   (group IDs matching: GlobularAmphora|Globular)
+==========================================================
+  Poland_GlobularAmphora                       n=33   sites=7   plat=2    4463- 5132 BP (span 669)
+  Czechia_N_GlobularAmphora                    n=6    sites=3   plat=1    4510- 4692 BP (span 182)
+  Moldova_GlobularAmphora_Yamnaya              n=2    sites=1   plat=2    4785- 4785 BP (span 0)
+
+==========================================================
+ CENTRAL EUROPEAN MIDDLE NEOLITHIC -- alternative farmer term   (group IDs matching: ^Germany_MN|^Germany_LN|^Poland_MN)
+==========================================================
+
+==========================================================
+ AEGEAN NEOLITHIC -- descendant of Turkey_N (screens ANATOLIAN)   (group IDs matching: ^Greece_N$|^Greece_Peloponnese_N|^Greece_.*_N$)
+==========================================================
+  Greece_Crete_Aposelemis_N                    n=8    sites=1   plat=1    7851- 7981 BP (span 130)
+  Greece_Peloponnese_N                         n=5    sites=1   plat=1    5734- 7883 BP (span 2149)
+  Greece_North_N                               n=2    sites=2   plat=1    6348- 8316 BP (span 1968)
+  Greece_N                                     n=1    sites=1   plat=1    6348- 6348 BP (span 0)
+
+==========================================================
+ BALKAN NEOLITHIC -- descendant of Turkey_N (screens ANATOLIAN)   (group IDs matching: ^Bulgaria_N|^Bulgaria_.*_N$|^Serbia_N|^NorthMacedonia_N)
+==========================================================
+  Bulgaria_MalakPreslavets_N                   n=5    sites=1   plat=1    7550- 7976 BP (span 426)
+  Bulgaria_Dzhulyunitsa_N                      n=5    sites=1   plat=2    7503- 7892 BP (span 389)
+  Bulgaria_Yabalkovo_N                         n=4    sites=1   plat=1    7610- 7900 BP (span 290)
+  Bulgaria_Krepost_N                           n=3    sites=1   plat=1    7617- 7617 BP (span 0)
+  NorthMacedonia_N                             n=2    sites=2   plat=1    3150- 7792 BP (span 4642)
+  NorthMacedonia_N-NotPermittedToPublish       n=1    sites=1   plat=1    6700- 6700 BP (span 0)
+  Bulgaria_Samovodene_N                        n=1    sites=1   plat=1    7293- 7293 BP (span 0)
+  Bulgaria_Ohoden_N                            n=1    sites=1   plat=1    7883- 7883 BP (span 0)
+  Bulgaria_NovaZagora_EBA                      n=1    sites=1   plat=1    4450- 4450 BP (span 0)
+
+==========================================================
+ CENTRAL EUROPEAN EARLY NEOLITHIC -- descendant of Turkey_N   (group IDs matching: ^Hungary_EN|^Hungary_.*Starcevo|Koros|^Germany_LBK|LBK)
+==========================================================
+  Austria_N_LBK                                n=103  sites=1   plat=2    6075- 7528 BP (span 1453)
+  Slovakia_N_LBK                               n=56   sites=2   plat=2    6936- 7100 BP (span 164)
+  Germany_DerenburgMeerenstieg2_N_LBK          n=34   sites=1   plat=2    6850- 7172 BP (span 322)
+  Germany_HalberstadtSonntagsfeld_EN_LBK       n=26   sites=1   plat=2    6938- 7125 BP (span 187)
+  Hungary_MN_LBK                               n=8    sites=7   plat=1    6982- 7077 BP (span 95)
+  Hungary_EN_Koros                             n=7    sites=6   plat=2    7500- 7758 BP (span 258)
+  Austria_EN_LBK                               n=6    sites=3   plat=2    6961- 7113 BP (span 152)
+  Poland_N_LLBK_LLengyel                       n=5    sites=3   plat=1    6111- 6391 BP (span 280)
+  Hungary_EN_Koros-oWHG                        n=5    sites=2   plat=3    7661- 7700 BP (span 39)
+  Hungary_N_Koros                              n=4    sites=1   plat=1    7500- 7550 BP (span 50)
+  Hungary_EN_Starcevo-1                        n=4    sites=2   plat=1    7519- 7687 BP (span 168)
+  Poland_N_ELBK                                n=3    sites=2   plat=1    6100- 6100 BP (span 0)
+  Hungary_MN_ALBK                              n=3    sites=3   plat=1    7100- 7200 BP (span 100)
+  Hungary_MN_ALBK_Szakalhat                    n=2    sites=1   plat=1    7050- 7050 BP (span 0)
+
+==========================================================
+ IRAN CHALCOLITHIC -- possible descendant of Iran_GanjDareh (screens IRAN)   (group IDs matching: ^Iran_C$|^Iran_.*_C$|SehGabi|Hajji|^Iran_ChL)
+==========================================================
+  Iran_TepeHissar_C                            n=14   sites=1   plat=3    4043- 5566 BP (span 1523)
+  Iran_SehGabi_C                               n=7    sites=1   plat=1    5819- 6690 BP (span 871)
+  Iran_HajjiFiruz_N                            n=6    sites=1   plat=2    7747- 7920 BP (span 173)
+  Iran_SehGabi_LN                              n=3    sites=1   plat=1    7686- 7686 BP (span 0)
+  Iran_HajjiFiruz_IA                           n=1    sites=1   plat=1    3050- 3050 BP (span 0)
+  Iran_HajjiFiruz_BA                           n=1    sites=1   plat=1    4312- 4312 BP (span 0)
+
+==========================================================
+ YAMNAYA (the source itself, for reference)   (group IDs matching: ^Russia_Yamnaya|Samara_EBA_Yamnaya|^Russia_Samara_EBA)
+==========================================================
+  Russia_Samara_EBA_Yamnaya                    n=46   sites=15  plat=3    4518- 5165 BP (span 647)
+  Russia_Samara_EBA_IA_c_Yamnaya               n=1    sites=1   plat=1    4701- 4701 BP (span 0)
+
+==========================================================
+ HOW TO READ THIS
+==========================================================
+ A usable control needs: n >= 8, ONE locality (or few), a tight date
+ span, and one platform. Anything with sites >= 3 or span >= 800 is a
+ BIN and is disqualified -- by this project's own Recommendation 2.
+
+ If nothing usable turns up for Iran_GanjDareh, that hole is PERMANENT
+ and Paper B must state that its diagnostic cannot screen the source
+ that contributes most to the target. It already half-says this.
+
+ Nothing is concluded here. Read the counts.

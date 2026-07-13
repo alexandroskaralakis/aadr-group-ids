@@ -1,0 +1,16 @@
+script: run_chisq_null
+date: 2026-07-13 17:44:11
+purpose: the null distribution of chi^2 under RANDOM SNP loss --
+  the calibration Paper B section 3.4 admits it owes
+model: Germany_Esperstedt_CordedWare <- Russia_Samara_EBA_Yamnaya + Czechia_N_GlobularAmphora
+baseline (7 right, REJECTED): N=898057 chisq=13.935 dof=5 p=0.01603
+baseline (6 right, ACCEPTED): N=898057 chisq=5.206 dof=4 p=0.2668
+replicates per loss fraction: 20
+fraction of replicates with a >=51% chi^2 fall at 17.7% random loss: 0.00
+
+Section 3's exhibit reports a 51% chi^2 fall after a 17.7% SNP loss and
+  reads it as evidence of NON-RANDOM loss. This script asks how often
+  RANDOM loss does the same thing.
+
+Every population here is an AADR group taken whole. No target genome.
+NOTHING here is comparable to 122,891 / 124,362 or any earlier basis.

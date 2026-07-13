@@ -1,0 +1,17 @@
+script: build_thin_panel
+date: Mon Jul 13 17:53:14 EEST 2026
+purpose: rebuild Paper B section 3's exhibit on public data
+
+model (REJECTS at full basis: chisq 13.93, dof 5, p = 0.016):
+  Germany_Esperstedt_CordedWare <- Russia_Samara_EBA_Yamnaya + Czechia_N_GlobularAmphora
+  right = six canonical + Georgia_KotiasKlde_Mesolithic
+
+thin populations added to the EXTRACT ONLY (never in the model):
+  - Turkey_Epipaleolithic
+  - Israel_Natufian
+  Selected on AADR column 27 (SNPs hit, 1240k panel), before any statistic.
+
+Every population is an AADR group taken whole. No target genome, no pool.
+SUPERSEDES section 3's exhibit, which targeted the author's genome and used
+  Greece_Minoan_POOL (not a population, rank-0 p = 3.2e-08) as a source.
+NOTHING here is comparable to 124,362 / 102,314 or any earlier basis.

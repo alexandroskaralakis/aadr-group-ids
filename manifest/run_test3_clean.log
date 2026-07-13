@@ -1,0 +1,93 @@
+==========================================================
+ run_test3_clean.R
+  2026-07-13 15:48:30 
+ admixtools: 2.0.10 
+==========================================================
+
+PRE-REGISTERED, before any model is run:
+  P1. The Mycenaean pool is a bin and REJECTS rank 0.        [~55%]
+  P2. Mycenaean <- Lasithi + Yamnaya stays ADMISSIBLE, weights
+      near the published 86.9 / 13.1.                        [~70%]
+  P3. Kotias still degrades it -- fold > 5x.                 [~70%]
+  P4. If the fold collapses, Test 3's headline was an artifact of a
+      bin, and Paper B loses its exhibit. That is reportable.
+  BRANCH RULE (fixed now): rank-0 p > 0.05 -> use all 26.
+                           rank-0 p <= 0.05 -> use Peloponnese 18.
+
+##### STAGE 1 -- is the Mycenaean pool one population? #####
+
+  extract_f2 pops (these, and only these, set the basis):
+    - Myc_PELOPONNESE 
+    - Myc_ISLANDS 
+    - Mbuti 
+    - Italy_Sicily_Epigravettian 
+    - Russia_Kostenki_UP 
+    - Papuan 
+    - Serbia_IronGates_Mesolithic 
+    - Morocco_Iberomaurusian 
+  basis: 957,436 SNPs
+
+Warning message:
+In discard_snps(snpdat, maxmiss = maxmiss, auto_only = auto_only,  :
+  Keeping only chromosomes 1 to 22! Set `auto_only = FALSE` to keep all chromosomes!
+ℹ Computing f4 stats...
+ℹ Computing number of admixture waves...
+  f4rank dof    chisq            p dofdiff chisqdiff p_nested
+1      0   5 26.77659 6.305006e-05      NA        NA       NA
+
+  RANK 0: chisq = 26.78  dof = 5  p = 6.305e-05  ->  REJECTED — THE MYCENAEAN POOL IS A BIN TOO
+
+>> BRANCH B: pool rejects. Mycenaean = Peloponnese 18.
+>> The 8 island individuals (Aegina, Paros) are DROPPED and declared.
+
+##### STAGE 3 -- Test 3 #####
+
+  target: Myc_PELOPONNESE (n = 18)
+  model : Myc_PELOPONNESE <- Crete_Lasithi_EMBA + Russia_Samara_EBA_Yamnaya 
+
+  extract_f2 pops (these, and only these, set the basis):
+    - Myc_PELOPONNESE 
+    - Crete_Lasithi_EMBA 
+    - Russia_Samara_EBA_Yamnaya 
+    - Georgia_KotiasKlde_Mesolithic 
+    - Mbuti 
+    - Italy_Sicily_Epigravettian 
+    - Russia_Kostenki_UP 
+    - Papuan 
+    - Serbia_IronGates_Mesolithic 
+    - Morocco_Iberomaurusian 
+  basis: 970,660 SNPs
+
+Warning message:
+In discard_snps(snpdat, maxmiss = maxmiss, auto_only = auto_only,  :
+  Keeping only chromosomes 1 to 22! Set `auto_only = FALSE` to keep all chromosomes!
+  Both models below run on the ONE basis printed above. Kotias sits in the
+  extract for both, so the only thing that changes is the RIGHT set.
+
+ℹ Computing f4 stats...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+  six canonical refs           p = 8.6125e-07  [ADMISSIBLE]
+      Crete_Lasithi_EMBA 79.2% (Z 30.19)   Russia_Samara_EBA_Yamnaya 20.8% (Z 7.93)
+ℹ Computing f4 stats...
+ℹ Computing admixture weights...
+ℹ Computing standard errors...
+ℹ Computing number of admixture waves...
+  six + Georgia_Kotias         p = 7.7329e-12  [ADMISSIBLE]
+      Crete_Lasithi_EMBA 80.6% (Z 27.75)   Russia_Samara_EBA_Yamnaya 19.4% (Z 6.69)
+
+----------------------------------------------------------
+  FOLD (p_base / p_kotias) = 111374.0x
+----------------------------------------------------------
+
+  VERDICT: HOLDS — Kotias degrades a true, admissible descent relationship.
+       Test 3 survives the rebuild on coherent populations. 
+
+  Paper B v1.0 reported: p 0.5113 -> 0.0122, fold 41.9x, on
+  Greece_Minoan_POOL (6 group IDs) -> Greece_Mycenaean_POOL (5 group IDs),
+  at 122,891 SNPs. That basis and those populations are superseded.
+  DO NOT put the old and new numbers in one table.
+
+Manifest: manifest/run_test3_clean.txt
+Done.

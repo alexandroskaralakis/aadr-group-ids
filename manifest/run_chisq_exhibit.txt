@@ -1,0 +1,23 @@
+script: run_chisq_exhibit
+date: 2026-07-13 18:08:06
+purpose: Paper B section 3's exhibit, rebuilt on public data, with a null
+model: Germany_Esperstedt_CordedWare <- Russia_Samara_EBA_Yamnaya + Czechia_N_GlobularAmphora
+right: six canonical + Georgia_KotiasKlde_Mesolithic
+baseline: N=898057 chisq=13.935 dof=5 p=0.01603
+
+thin populations added to the EXTRACT ONLY (never in the model):
+  Turkey_Epipaleolithic: N=746953 (-16.8%) chisq=10.224 p=0.06912
+  Israel_Natufian: N=639313 (-28.8%) chisq=11.943 p=0.03558
+
+random-loss null: 20 replicates per matched basis
+chi^2 below the entire null: 2 of 2
+
+THE PREMISE OF SECTION 3.3 IS FALSE. Under random SNP loss chi^2 does not
+  fall with N; it RISES (1.36x at 17.7% loss, 20/20 reps; run_chisq_null).
+  Fewer SNPs -> fewer jackknife blocks -> noisier f4 covariance -> inflated
+  inverse -> chi^2 = E'Q^-1 E biased upward. The exhibit is therefore MORE
+  anomalous than section 3 claimed, and the diagnostic must be restated:
+  chi^2 fell when it should have RISEN.
+
+Every population is an AADR group taken whole. No target genome, no pool.
+NOTHING here is comparable to 124,362 / 102,314 or any earlier basis.

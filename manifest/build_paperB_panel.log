@@ -1,0 +1,42 @@
+==========================================================
+ build_paperB_panel.sh   Mon Jul 13 15:16:40 EEST 2026
+==========================================================
+
+[1] Group ID column = 15 (verified)
+    QC-retained individuals available: 84
+
+[2] relabelled individuals:
+    Crete_Lasithi_EMBA     26
+    Myc_ISLANDS            8
+    Myc_PELOPONNESE        18
+    counts match discovery. good.
+
+[3] poplist (11 pops):
+    Crete_Lasithi_EMBA
+    Myc_PELOPONNESE
+    Myc_ISLANDS
+    Russia_Samara_EBA_Yamnaya
+    Georgia_KotiasKlde_Mesolithic
+    Mbuti
+    Italy_Sicily_Epigravettian
+    Russia_Kostenki_UP
+    Papuan
+    Serbia_IronGates_Mesolithic
+    Morocco_Iberomaurusian
+
+[4] convertf (several minutes)...
+    individuals: 243   panel SNPs: 1233013
+      Crete_Lasithi_EMBA               26
+      Georgia_KotiasKlde_Mesolithic    2
+      Italy_Sicily_Epigravettian       12
+      Mbuti                            15
+      Morocco_Iberomaurusian           8
+      Myc_ISLANDS                      8
+      Myc_PELOPONNESE                  18
+      Papuan                           32
+      Russia_Kostenki_UP               3
+      Russia_Samara_EBA_Yamnaya        46
+      Serbia_IronGates_Mesolithic      73
+
+[5] target-genome check:
+    *** FAIL ***

@@ -1,0 +1,18 @@
+script: run_test3_controls
+date: 2026-07-13 16:54:16
+purpose: Test 3 on literature-established, coherent positive controls
+
+admissibility = p > 0.05 AND all weights > 0 AND all |Z| > 2.
+  The p-value is REQUIRED. run_test3_clean.R omitted it and reported a
+  111,374x fold between two models both rejected at p < 1e-06. VOID.
+
+SUPERSEDES Paper B v1.0's Test 3 exhibit (41.9x on Mycenaean <- Minoan +
+  Yamnaya, 122,891 SNPs). That control is void: both pools are bins, the
+  coherent version rejects at every basis, and the pool's apparent fit came
+  from post-conquest Chania individuals already carrying steppe ancestry.
+
+NO usable descendant of Iran_GanjDareh exists in v66.p1. The Iran/CHG
+  source cannot be Test-3 screened. Structural and permanent.
+
+Every population here is an AADR group taken whole. No private filter.
+NOTHING here is comparable to 122,891 / 124,362 or any earlier basis.

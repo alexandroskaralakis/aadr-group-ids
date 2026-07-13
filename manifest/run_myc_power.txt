@@ -1,0 +1,11 @@
+script: run_myc_power
+date: 2026-07-13 16:41:39
+purpose: is the rejection of Myc <- Lasithi + Yamnaya power, or misfit?
+partB_basis: 956579
+partB_admissible_models: 2 of 15
+
+admissibility = p > 0.05 AND all weights > 0 AND all |Z| > 2.
+  run_test3_clean.R omitted the p-value from this test and reported
+  [ADMISSIBLE] for a model rejected at p = 8.6e-07. That run is VOID.
+
+NOTHING here is comparable to 122,891 / 124,362 or any earlier basis.

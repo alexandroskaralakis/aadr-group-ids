@@ -1,0 +1,24 @@
+script: build_paperB_wide
+date: Mon Jul 13 16:40:03 EEST 2026
+purpose: can ANY two-source model fit Myc_PELOPONNESE at ~1M SNPs?
+
+QC-restricted (project QC retained these; the QC is NOT scripted):
+  Crete_Lasithi_EMBA (26 of AADR's 34)
+  Crete_Chania_LBA   (23; Greece_Crete_LBA minus kro008/kro009 = Heraklion)
+  Myc_PELOPONNESE    (18 of AADR's 31)
+Taken whole from AADR:
+  Yamnaya_Samara (Russia_Samara_EBA_Yamnaya)
+  Kotias (Georgia_KotiasKlde_Mesolithic)
+  Turkey_N_BIN (Turkey_N -- 5-of-5 coherence flags. A BIN. Competitor only.)
+  Iran_GanjDareh (Iran_GanjDareh_N)
+  Khvalynsk_Eneo (Russia_Saratov_Eneolithic_Khvalynsk)
+
+right_set:
+  - Mbuti
+  - Italy_Sicily_Epigravettian
+  - Russia_Kostenki_UP
+  - Papuan
+  - Serbia_IronGates_Mesolithic
+  - Morocco_Iberomaurusian
+
+panel_snps: 1233013  (convertf panel, NOT the basis)

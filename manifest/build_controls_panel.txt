@@ -1,0 +1,43 @@
+script: build_controls_panel
+date: Mon Jul 13 16:53:02 EEST 2026
+purpose: three literature-established positive controls for Test 3
+
+NO PRIVATE FILTER. Every population is an AADR group taken whole.
+  This panel is reproducible from the public archive alone.
+
+controls:
+  1. Germany_Esperstedt_CordedWare (13, 1 site, 247 yr)
+       <- Russia_Samara_EBA_Yamnaya + Czechia_N_GlobularAmphora
+       Haak et al. 2015; canonical ~75/25. Screens STEPPE.
+  2. Russia_Khakassia_Afanasievo (27, 2 sites, 400 yr)
+       <- Russia_Samara_EBA_Yamnaya   [one-source; near-clade]
+       Narasimhan et al. 2019. Screens STEPPE.
+  3. Slovakia_N_LBK (56, 2 sites, 164 yr) <- Turkey_N
+     Germany_HalberstadtSonntagsfeld_EN_LBK (26, 1 site) <- Turkey_N
+       Screens ANATOLIAN -- the source Paper B could not screen.
+
+candidate reference under test: Georgia_KotiasKlde_Mesolithic (2, 1 site)
+
+disqualified as bins (by this project's own Recommendation 2):
+  Austria_N_LBK (103 ind, 1 site, but 1,453 yr span)
+  Czechia_EBA_CordedWare (48, 15 sites, 706 yr)
+  Poland_GlobularAmphora (33, 7 sites, 669 yr)
+  Russia_Altai_Afanasievo (20, 7 sites)
+
+DECLARED: Russia_Samara_EBA_Yamnaya is itself 15 localities / 3 platforms
+  / 647 yr and would trip our own >=3-localities flag. No coherent
+  alternative with n>=20 exists. Used, and declared.
+
+DECLARED: NO usable descendant of Iran_GanjDareh exists in v66.p1.
+  Iran_SehGabi_C is n=7 / 871 yr; Iran_TepeHissar_C is 1,523 yr / 3 plat.
+  The Iran/CHG source CANNOT be Test-3 screened. Structural, permanent.
+
+right_set:
+  - Mbuti
+  - Italy_Sicily_Epigravettian
+  - Russia_Kostenki_UP
+  - Papuan
+  - Serbia_IronGates_Mesolithic
+  - Morocco_Iberomaurusian
+
+panel_snps: 1233013  (convertf panel, NOT the basis)

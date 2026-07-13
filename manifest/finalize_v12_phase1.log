@@ -1,0 +1,56 @@
+==========================================================
+ PHASE 1 -- inspect only
+ Mon Jul 13 14:00:07 EEST 2026
+==========================================================
+
+### 1. basis census
+  basis_census.R NOT FOUND under ./ or ./scripts/
+  searching wider...
+
+### 2. git
+  remote:
+origin	https://github.com/alexandroskaralakis/aadr-group-ids.git (fetch)
+origin	https://github.com/alexandroskaralakis/aadr-group-ids.git (push)
+  branch: main
+  last commit: 7bad397 Note run_test3.R as superseded
+
+  --- .gitignore ---
+*.geno
+*.snp
+*.ind
+*.anno
+f2_*/
+panel_*
+postBA_*
+merged_*
+.Rhistory
+.RData
+.DS_Store
+manifest/extract_f2_console_bronze_age.txt
+
+### 3. GENOTYPE-DATA HAZARD CHECK
+  clean_minoan/ now holds the panels built today:
+633M	clean_minoan
+     249068626  clean_minoan/panel_date.geno
+      77679819  clean_minoan/panel_date.snp
+     237971509  clean_minoan/panel_site.geno
+      77679819  clean_minoan/panel_site.snp
+
+  Would 'git add -A' stage any genotype file? (must be NONE)
+
+finalize_v12_phase1.sh: line 75: [: 0
+0: integer expression expected
+  CLEAN — no genotype or f2 paths would be staged.
+
+### 4. what SHOULD go in (the new work)
+    build_minoan_panel.sh                      11163 bytes
+    run_minoan_split_clean.R                   7287 bytes
+    manifest/build_minoan_panel.txt            1722 bytes
+    manifest/run_minoan_split_clean.txt        1345 bytes
+    manifest/build_minoan_panel.log            3249 bytes
+    manifest/run_minoan_split_clean.log        10953 bytes
+    paper_A_aadr_audit_v1_2.md                 30893 bytes
+
+==========================================================
+ Phase 1 done. Nothing committed, nothing pushed.
+==========================================================

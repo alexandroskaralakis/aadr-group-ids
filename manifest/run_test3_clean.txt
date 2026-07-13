@@ -1,0 +1,25 @@
+script: run_test3_clean
+date: 2026-07-13 15:49:08
+purpose: Paper B Test 3 rebuilt on coherent AADR-labelled populations
+
+stage1_mycenaean_coherence:
+  left: Myc_PELOPONNESE (18) vs Myc_ISLANDS (8)
+  basis: 957436
+  chisq: 26.7765860877201
+  dof: 5
+  rank0_p: 6.305006437427e-05
+  verdict: BIN
+
+stage3_test3:
+  target: Myc_PELOPONNESE (n=18)
+  model: Myc_PELOPONNESE <- Crete_Lasithi_EMBA + Russia_Samara_EBA_Yamnaya
+  basis: 970660
+  populations_in_extract: Myc_PELOPONNESE, Crete_Lasithi_EMBA, Russia_Samara_EBA_Yamnaya, Georgia_KotiasKlde_Mesolithic, Mbuti, Italy_Sicily_Epigravettian, Russia_Kostenki_UP, Papuan, Serbia_IronGates_Mesolithic, Morocco_Iberomaurusian
+  p_six_refs: 8.61248501379912e-07  admissible: TRUE
+  p_plus_kotias: 7.7329435341218e-12  admissible: TRUE
+  fold: 111373.954507702
+
+SUPERSEDES Paper B v1.0's 41.9x on 122,891 SNPs, which used
+  Greece_Minoan_POOL (not a population, p=3.2e-08) as the SOURCE and
+  Greece_Mycenaean_POOL (5 AADR group IDs) as the DESCENDANT.
+NOTHING here is comparable to 122,891 / 124,362 or any earlier basis.

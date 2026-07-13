@@ -1,0 +1,90 @@
+==========================================================
+ PHASE 2 (v2) -- allowlist staging
+ Mon Jul 13 14:05:52 EEST 2026
+==========================================================
+
+### 1. hardening .gitignore
+  + *.bed
+  + *.bim
+  + *.fam
+  + *.bak
+  + mydna*
+  + digitalfire*
+  + *_plink*
+  + clean_minoan/*.geno
+  + clean_minoan/*.snp
+  + clean_minoan/*.ind
+  + clean_minoan/f2_*/
+  + /tmp*
+  .gitignore now covers PLINK as well as EIGENSTRAT.
+
+### 2. basis census
+  -> manifest/basis_census.log
+  distinct bases recorded: 90 (incl. header)
+
+### 3. staging (allowlist only)
+  + paper_A_aadr_audit_v1_2.md                   30893 bytes
+  + build_minoan_panel.sh                        11163 bytes
+  + run_minoan_split_clean.R                     7287 bytes
+  + basis_census.R                               4279 bytes
+  + manifest/build_minoan_panel.txt              1722 bytes
+  + manifest/run_minoan_split_clean.txt          1345 bytes
+  + manifest/build_minoan_panel.log              3249 bytes
+  + manifest/run_minoan_split_clean.log          10953 bytes
+  + manifest/basis_census.log                    19408 bytes
+  + manifest/basis_census.csv                    6294 bytes
+  + manifest/basis_census_mentions.csv           54945 bytes
+  + clean_minoan/pool_ids.txt                    597 bytes
+  + clean_minoan/pool_labels.tsv                 6097 bytes
+  + clean_minoan/right.txt                       110 bytes
+  + clean_minoan/poplist_site.txt                146 bytes
+  + clean_minoan/poplist_date.txt                133 bytes
+  + clean_minoan/par.panel_site                  435 bytes
+  + clean_minoan/par.panel_date                  435 bytes
+  + clean_minoan/convertf_panel_site.log         821 bytes
+  + clean_minoan/convertf_panel_date.log         821 bytes
+  + .gitignore                                   264 bytes
+  staged: 21 files
+
+### 4. VERIFY -- exactly what is about to be committed
+    .gitignore
+    basis_census.R
+    build_minoan_panel.sh
+    clean_minoan/convertf_panel_date.log
+    clean_minoan/convertf_panel_site.log
+    clean_minoan/par.panel_date
+    clean_minoan/par.panel_site
+    clean_minoan/pool_ids.txt
+    clean_minoan/pool_labels.tsv
+    clean_minoan/poplist_date.txt
+    clean_minoan/poplist_site.txt
+    clean_minoan/right.txt
+    manifest/basis_census.csv
+    manifest/basis_census.log
+    manifest/basis_census_mentions.csv
+    manifest/build_minoan_panel.log
+    manifest/build_minoan_panel.txt
+    manifest/run_minoan_split_clean.log
+    manifest/run_minoan_split_clean.txt
+    paper_A_aadr_audit_v1_2.md
+    run_minoan_split_clean.R
+
+  --- genotype check on the STAGED set (must print nothing) ---
+  (nothing) -> CLEAN
+
+  --- size check on the STAGED set (must print nothing over 1 MB) ---
+  (nothing) -> CLEAN
+
+### 5. commit
+  committed: ca3f2f8 v1.2: rebuild §2.5 on an ancients-only basis; retract chip-conditioned p-values
+
+==========================================================
+ NOT PUSHED. Review with:
+     git show --stat HEAD
+
+ Then, if you're satisfied:
+     git push origin main
+
+ Then on github.com/alexandroskaralakis/aadr-group-ids:
+   Releases -> Draft a new release -> tag v1.2 -> Publish
+==========================================================

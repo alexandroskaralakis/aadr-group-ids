@@ -89,3 +89,71 @@ is that unexamined provenance determines results ran its own provenance audit
 off-script. `basis_census.R` now exists and is versioned. Its output is a
 candidate list with false positives, not an audited count, and no figure in
 either paper is taken from it.
+
+---
+
+## 2026-07-13 (evening) — Paper B rebuilt; three retractions
+
+### 1. The fold is withdrawn as a reportable quantity.
+
+**Retracted:** the claim that the degradation fold is basis-stable while the
+p-value is not, and therefore the quantity to report. Reported folds:
+43.8x / 41.9x / 41.9x.
+
+**Why.** Across eleven genuinely different SNP bases the fold spans **0.8x to
+80.6x**; the p-value spans 8x. At a *fixed* basis of ~225,000 SNPs, three
+replicates differing only in the random SNP draw gave **4.4x / 7.7x / 80.6x**.
+A ratio of two noisy p-values is noisier than either.
+
+**Why it looked true.** The three bases cited were 122,891 / 124,362 / ~123,000
+SNPs -- three near-copies of one basis. Near-identical bases give near-identical
+folds. That is a tautology, and it was presented as the paper's methodological
+justification.
+
+**Superseded by** the binary admissibility flip (`run_fold_stability.R`).
+
+### 2. The Test 3 positive control is void.
+
+**Retracted:** `Greece_Mycenaean_POOL <- Greece_Minoan_POOL + Yamnaya`, 41.9x
+fold on 122,891 SNPs, "recovers an independently established 86.9/13.1 to three
+digits".
+
+**Why.** Both pools are analyst-built bins: `Greece_Minoan_POOL` carries six AADR
+group IDs and fails qpWave rank-0 at p=3.2e-08; `Greece_Mycenaean_POOL` carries
+five and fails at p=6.3e-05. Rebuilt on coherent populations
+(`Myc_PELOPONNESE <- Crete_Lasithi_EMBA + Yamnaya`), the model **rejects at every
+basis from 108,442 to 970,005 SNPs**.
+
+**And the relationship was never true.** `Crete_Chania_LBA` -- Late Minoan III,
+c. 1350-1225 BCE, *after* the Mycenaean takeover of Knossos -- already carries
+steppe ancestry. Pooling it with pre-conquest Lasithi produced a "Minoan" source
+that already contained the Mycenaeans, so the model needed less Yamnaya. **The
+three-digit agreement with Lazaridis et al. was the circularity, and it looked
+exactly like validation.**
+
+**Superseded by** `Germany_Esperstedt_CordedWare <- Yamnaya + Czechia_N_GlobularAmphora`
+(Haak et al. 2015), on 898,057 SNPs, all populations AADR groups taken whole.
+
+### 3. Section 3's premise is false.
+
+**Retracted:** "chi^2 scales approximately with SNP count", and the derived rule
+"compare chi^2/N".
+
+**Why.** Under RANDOM SNP loss chi^2 does not fall. **It rises** -- 1.36x at 17.7%
+loss, in 20 of 20 replicates. Fewer SNPs mean fewer jackknife blocks, a noisier
+f4 covariance matrix, an inflated inverse, and an upward-biased chi^2 = E'Q^-1 E.
+The chi^2/N ratio has no null and should not be used.
+
+**The exhibit survives, restated.** Against the correct null, the observed chi^2
+lies **below all 20 random-loss replicates** at the matched basis, for both thin
+populations tested. The diagnostic is not "chi^2 fell faster than N" but
+**"chi^2 fell when random loss says it should have risen."**
+
+**Superseded by** `run_chisq_null.R` + `run_chisq_exhibit.R`.
+
+### 4. What was wrong with the whole of v1.0
+
+Every retracted result above was computed on panels that included the author's
+own genome and analyst-built pools. **v2.0 is rebuilt entirely from AADR group IDs
+taken whole.** The fact that v1.0 was not reproducible from public data is what
+allowed most of what it got wrong.

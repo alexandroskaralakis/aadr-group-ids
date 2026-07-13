@@ -1,0 +1,11 @@
+script: run_chisq_calibration
+prefix: postBA_arb
+replicates: 20
+keep_fraction: 0.82271
+null_median_eneo: 13.537
+null_q05_eneo: 10.897
+observed_eneo: 7.36
+null_median_yam: 12.032
+observed_yam: 6.17
+Populations IDENTICAL in every replicate; only the SNP mask varies.
+Observed values taken from run_eastern_term_v2.log, not retyped from memory.

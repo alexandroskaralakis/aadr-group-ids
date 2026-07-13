@@ -18,3 +18,7 @@ prediction ledger), not because their numbers are usable.
   built *from* this failure.
 
 No figure in either paper is taken from these files.
+
+- `scripts/run_test3.R` — the FIRST version of the Test 3 script. Superseded by
+  `run_test3_v2.R`. Retained for the record; no figure in either paper comes
+  from it. The v2 script is canonical.
